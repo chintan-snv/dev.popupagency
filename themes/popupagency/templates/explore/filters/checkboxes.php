@@ -105,7 +105,7 @@ $fieldkey = sprintf( 'types["%s"].filters["%s"]', $type->get_slug(), $filter->ge
                                 $plates_html .= '<li>';
                                     $plates_html .= '<div class="mwb-custom-checkbox md-checkbox check-'.$slug.'">';
                                         $plates_html .= '<input id="typ-'.$slug.'" type="checkbox" value="'.$slug.'"   v-model="types[\'rent\'].filters[\'job_category\']"
-                        @change="getListings( \'checkboxes\' )">';
+                       >';  // @change="getListings( \'checkboxes\' )"
                                         $plates_html .= '<label for="typ-'.$slug.'">';
                                             $plates_html .= '<i class="'.$term_icon.'"></i>';
                                             $plates_html .= $name.' ('.$category_count.')';
@@ -118,7 +118,7 @@ $fieldkey = sprintf( 'types["%s"].filters["%s"]', $type->get_slug(), $filter->ge
                                 $plates_html .= '<li class="mwb-child">';
                                     $plates_html .= '<div class="mwb-custom-checkbox md-checkbox check-'.$slug.'">';
                                         $plates_html .= '<input id="typ-'.$slug.'" type="checkbox" value="'.$slug.'" v-model="types[\'rent\'].filters[\'job_category\']"
-                        @change="getListings( \'checkboxes\' )">';
+                        >';  //@change="getListings( \'checkboxes\' )"
                                         $plates_html .= '<label for="typ-'.$slug.'">';
                                             $plates_html .= '<i class="'.$term_icon.'"></i>';
                                             $plates_html .= $name.' ('.$category_count.')';
@@ -142,7 +142,7 @@ $fieldkey = sprintf( 'types["%s"].filters["%s"]', $type->get_slug(), $filter->ge
                 <div class="okej-<?php echo esc_html( $filter->get_label() ); ?> knapp-p">
                     <a href="#" class="mwb-custom-cancel-button"> Avbryt</a>
                     <!-- <a href="#" class="button-2 btn filter-knapp c27-explore-search-button"> Okej </a> -->
-                    <a href="#" class="button-2 btn filter-knapp c27-explore-search-button" @click.prevent="state.mobileTab = 'results'; mobile.matches ? _getListings() : getListings(); _resultsScrollTop();" >
+                    <a href="#" class="button-2 btn filter-knapp c27-explore-search-button" @click.prevent="state.mobileTab = 'results'; mobile.matches ? getListings() : getListings(); _resultsScrollTop();" >
                         <?php _e( 'Okej', 'my-listing' ) ?>
                     </a>
                 </div>
@@ -273,7 +273,7 @@ $fieldkey = sprintf( 'types["%s"].filters["%s"]', $type->get_slug(), $filter->ge
                                         $third_html .= '<div id="'.$slug.'" class="mwb-filter-plat__sub '.$actcls.'">';
                                             $third_html .= '<div class="mwb_custom_headings">';
                                                 $third_html .= '<input data-name="'.$slug.'" id="'.$slug.'1" type="checkbox" class="mwb_custom_checkbox" value="'.$slug.'" v-model="types[\'rent\'].filters[\'region\']"
-                        @change="getListings( \'checkboxes\' )">';
+                        >';  //@change="getListings( \'checkboxes\' )"
                                                 $third_html .= '<label for="'.$slug.'1" class="mwb-filter-platsub_heading"> Hela '.$name.'</label>';
                                             $third_html .= '</div>';
 
@@ -296,7 +296,7 @@ $fieldkey = sprintf( 'types["%s"].filters["%s"]', $type->get_slug(), $filter->ge
                                                     $name = $sngl_term->name; 
                                                      $third_html .= '<div class="mwb-filter-plat__sub-con">';
                                                 $third_html .= '<input type="checkbox" id="'.$slug.'" class="mwb_custom_checkbox" value="'.$slug.'" v-model="types[\'rent\'].filters[\'region\']"
-                        @change="getListings( \'checkboxes\' )">';
+                        >';  //@change="getListings( \'checkboxes\' )"
                                                 $third_html .= '<label for="'.$slug.'">'.$name.'</label>';
                                                 $third_html .= '<span>('.$category_count.') </span>';
                                             $third_html .= '</div>';
@@ -317,8 +317,9 @@ $fieldkey = sprintf( 'types["%s"].filters["%s"]', $type->get_slug(), $filter->ge
                     <div class="okej-<?php echo esc_html( $filter->get_label() ) ?> knapp-p">
                         <a href="#" class="mwb-custom-cancel-button"> Avbryt</a>
                         <!-- <a href="#" id="mwb_search_plats" class="button-2 btn filter-knapp c27-explore-search-button">Okej</a> -->
+                        
                         <a href="#" class="button-2 btn filter-knapp c27-explore-search-button" data-test="1" 
-                        @click.prevent="_getnewListings(); _resultsScrollTop();" id="mwb_search_plats"><?php _e( 'Okej', 'my-listing' ) ?></a>
+                        @click.prevent="state.mobileTab = 'results'; mobile.matches ? getListings() : getListings(); _resultsScrollTop();" id="mwb_search_plats"><?php _e( 'Okej', 'my-listing' ) ?></a>
                     </div>
                 </div>
             <?php

@@ -30,11 +30,11 @@ $range_type = $filter->get_prop('option_type') === 'simple' ? 'single' : 'range'
                 data-start="<?php echo ! empty( $value['start'] ) ? esc_attr( $value['start'] ) : false ?>"
                 data-end="<?php echo ! empty( $value['end'] ) ? esc_attr( $value['end'] ) : false ?>"
                 data-localize="<?php echo $filter->get_prop('format_value') ? 'yes' : 'no' ?>"
-                @rangeslider:change="<?php echo esc_attr( $fieldkey ) ?> = $event.detail.value; getListings( 'range-filter' );"
-            ></div>
+                @rangeslider:change="<?php echo esc_attr( $fieldkey ) ?> = $event.detail.value; "  
+            ></div> <!--  getListings( 'range-filter' ); -->
             <div class="okej-<?php echo esc_html( $filter->get_label() ) ?> knapp-p">
                 <a href="#" class="mwb-custom-cancel-button"> <?php _e( 'Avbryt', 'my-listing' ) ?></a>
-                <a href="#" class="button-2 btn filter-knapp c27-explore-search-button" @click.prevent="state.mobileTab = 'results'; mobile.matches ? _getListings() : getListings(); _resultsScrollTop();" >
+                <a href="#" class="button-2 btn filter-knapp c27-explore-search-button" @click.prevent="state.mobileTab = 'results'; mobile.matches ? getListings() : getListings(); _resultsScrollTop();" >
                     <?php _e( 'Okej', 'my-listing' ) ?>
                 </a>
             </div>

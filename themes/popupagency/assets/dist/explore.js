@@ -38,12 +38,13 @@
                     this.types[e] && (this.activeType = this.types[e])
                 },
                 getListings: MyListing.Helpers.debounce(function(e) {
+                    window.getListings = true;
                     this.mobile.matches || this._getListings(e)
                 }, 500),
                 getListingsShort: MyListing.Helpers.debounce(function(e) {
                     this.mobile.matches || this._getListings(e)
                 }, 250),
-                _getListings: function(t) {
+                _getListings: function(t) { 
                     "dev" === CASE27.env && console.log("%c Get Listings [" + t + "]", "background-color: darkred; color: #fff;"), this.loading = !0;
                     var i = this,
                         a = this.activeType;
@@ -151,6 +152,12 @@
                         //jQuery('.owl-carousel').trigger('destroy.owl.carousel');
                         jQuery(".lf-background-carousel").owlCarousel('destroy');
                      this.backup = jQuery(".finder-listings .results-view").html();
+                     if(window.getListings)
+                     {
+                        window.getListings = false;
+                        alert("");
+                        this.backup = "";
+                     }
                       if(!jQuery('.job-manager-pagination').find('.current').parent("li").next("li").length)
                       {
                       	this.backup = "";
@@ -172,7 +179,7 @@
                         loop: !0
                     }), jQuery('[data-toggle="tooltip"]').tooltip({
                         trigger: "hover"
-                    }), jQuery(".c27-explore-pagination").length && jQuery(".c27-explore-pagination").html(i.pagination), jQuery(".fl-results-no span").length && jQuery(".fl-results-no span").html(i.showing), jQuery(".finder-container .fc-one-column").length && CASE27_Explore_Settings.ScrollToResults && jQuery(".finder-container .fc-one-column").animate({
+                    }), jQuery(".c27-explore-pagination").length && jQuery(".c27-explore-pagination").html(i.pagination), jQuery(".fl-results-no span").length && jQuery(".fl-results-no span").html(jQuery(".finder-listings .results-view .grid-item").length +" of "+ i.showing), jQuery(".finder-container .fc-one-column").length && CASE27_Explore_Settings.ScrollToResults && jQuery(".finder-container .fc-one-column").animate({
                         scrollTop: jQuery(".finder-search").outerHeight()
                     }), window.matchMedia("(min-width: 1200px)").matches ? (jQuery(".finder-container .fc-default .finder-listings").length && jQuery(".finder-container .fc-default .finder-listings").animate({
                         scrollTop: 0
