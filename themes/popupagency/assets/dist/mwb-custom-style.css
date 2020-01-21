@@ -1,0 +1,701 @@
+html, body {
+	margin: 0;
+	padding: 0;
+}
+#mwb-custom-search-box {
+	display: none;
+	position: fixed;
+	left: 0;
+	right: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(67,0,150,0.9);
+	top: 0;
+	bottom: 0;
+	z-index: 99999;
+}
+#mwb-custom-search-box form {
+	position: absolute !important;
+	width: 100%;
+	top: 200px;
+	bottom: 0;
+	width: 53%;
+	margin: 0 auto;
+	left: 0;
+	right: 0;
+}
+.mwb_custom_search_wrapper #mwb-searchsubmit {
+	width: 14%;
+	display: inline-block;
+	position: relative;
+	margin-left: 5px;
+}
+#mwb-searchsubmit i {
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 50%;
+	transform: translateY(-50%);
+	text-align: center;
+	color: #ffffff;
+	font-size: 30px;
+	cursor: pointer;
+}
+#mwb-searchsubmit input {
+	background: #000000;
+	padding: 16px;
+}
+.mwb_custom_search_wrapper #s {
+	border: 1px solid #ededed;
+	width: 80%;
+	background: #ffffff;
+	display: inline-block;
+	padding-left: 15px;
+}
+.mwb-filter-plat ul {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+.mwb-filter-plat__cat a.active, .mwb-filter-plat__tab a.active {
+	background: #6c4d92;
+	color: #ffffff;
+}
+/*=========================================
+=            Region Tab Design            =
+=========================================*/
+.mwb-filter-plat__tab a {
+	border: 1px solid #dddddd;
+	display: inline-block;
+	padding: 8px 15px;
+	text-decoration: none;
+}
+.mwb-filter-plat__tab a:hover {
+	background: #6c4d92;
+	border-color: #6c4d92;
+	color: #fff;
+}
+.mwb-filter-plat__tab li {
+	display: inline-block;
+	margin-right: 10px;
+	margin-bottom: 7px;
+}
+/*=====  End of Region Tab Design  ======*/
+/*========================================
+=            Sub Category Tab            =
+========================================*/
+.mwb-filter-plat__con {
+	display: none;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+.mwb-filter-plat__con h2 {
+	display: none;
+	flex: 0 0 100%;
+	max-width: 100%;
+}
+.mwb-filter-plat__con.active {
+	display: flex;
+}
+.mwb-filter-plat__sub {
+	display: none;
+	flex: 0 0 71%;
+	position: relative;
+}
+.mwb-filter-plat__sub.active {
+	display: block;
+	
+}
+/*=====  End of Sub Category Tab  ======*/
+/*===================================================
+=            CheckBox & Tab Theme Design            =
+===================================================*/
+.mwb-filter-plat__region {
+	border-bottom: 1px solid #ddd;
+	padding-bottom: 5px;
+}
+.mwb-filter-plat {
+	background: #ffffff;
+	left: 6px;
+	padding: 15px;
+	position: absolute;
+	right: 0;
+	top: 74px;
+	width: 800px;
+	z-index: 545;
+}
+.mwb-filter-plat__cat {
+	flex: 0 0 25%;
+	font-weight: bold;
+	max-height: 350px;
+	overflow-y: auto;
+	border-bottom: 1px solid #dddddd;
+}
+.mwb-filter-plat__cat ul li:first-child a {
+	border-top: none;
+}
+.mwb-filter-plat__cat a {
+	border: 1px solid #ddd;
+	border-bottom: none;
+	display: block;
+	padding: 13px 5px;
+	width: 100%;
+}
+.mwb-filter-plat__sub-con {
+	display: inline-block;
+	padding: 10px 2px;
+	position: relative;
+	width: 33.33%;
+}
+.mwb-mobile-nav {
+	display: none;
+}
+.mwb-filter-plat__sub-con input {
+	height: auto;
+	padding: 0 !important;
+	vertical-align: middle;
+}
+.mwb-filter-plat__sub-con input[type="checkbox"], .mwb_custom_headings input[type="checkbox"] {
+	height: auto !important;
+	margin-right: 0;
+	outline: 0;
+	position: absolute;
+	visibility: hidden;
+}
+
+.mwb-filter-plat__sub-con label,  .mwb_custom_headings label {
+	cursor: pointer;
+	float: none;
+	font-size: 12px !important;
+	font-weight: 400;
+	margin-bottom: 0;
+	font-size: 13px;
+	margin: 0;
+	padding-left: 30px;
+	position: static;
+}
+.mwb-enable{
+	display: block !important;
+}
+.mwb-filter-plat{
+	display: none;
+}
+.mwb_custom_headings label {
+	font-size: 20px !important;
+	font-weight: bold;
+}
+.mwb_custom_headings {
+	margin: 20px 0 15px;
+}
+.mwb-filter-plat__sub-con label::after, .mwb-filter-plat__sub-con label::before,  .mwb_custom_headings label:after, .mwb_custom_headings label:before {
+	content: "";
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+.mwb_custom_headings label:before {
+	top: 23px;
+}
+.mwb_custom_headings label:after {
+	top: 28px !important;
+}
+
+.mwb-filter-plat__sub-con label::before {
+	top: 10px;
+}
+.mwb-filter-plat__sub-con label::after {
+	top: 15px !important;
+}
+.mwb_custom_filters.hela-Plats {
+	width: 25% !important;
+	margin-left: 0 !important;
+	margin-top: 0 !important;
+	box-shadow: 0 2px 0 0 #eee;
+	border-left: 1px solid #aaa;
+	border-bottom: 1px solid #d0d1d5;
+}
+.mwb-filter-plat__sub-con label::before,  .mwb_custom_headings label::before {
+	width: 20px;
+	height: 20px;
+	background: #fff;
+	border: 2px solid rgba(0,0,0,.24);
+	border-radius: 2px;
+	cursor: pointer;
+	-webkit-transition: background .3s;
+	transition: background .3s;
+}
+.mwb-filter-plat__sub-con input[type="checkbox"]:checked + label::before, .mwb_custom_headings input[type="checkbox"]:checked + label::before {
+	background: #6c4d92;
+	border-color: transparent !important;
+}
+.mwb-filter-plat__sub-con input[type="checkbox"]:checked + label::after, .mwb_custom_headings input[type="checkbox"]:checked + label::after {
+	-webkit-transform: rotate(-45deg);
+	transform: rotate(-45deg);
+	top: 5px;
+	left: 4px;
+	width: 12px;
+	height: 6px;
+	border: 2px solid #fff;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-top-style: none;
+	border-right-style: none;
+}
+.mwb-button {
+	text-align: right;
+}
+.mwb_search_button{
+	display: none !important;
+}
+
+a.mwb-custom-cancel-button {
+	background-color: #eceaea;
+	padding: 10px;
+	color: #000;
+}
+.mwb-custom-cancel-button:hover {
+	color:#000;
+
+}
+.light-forms .explore-filter .mwb-button input {
+	display: inline-block !important;
+	padding: 6px 12px !important;
+	height: auto !important;
+	width: 50px !important;
+	background-color: #454545 !important;
+	border-radius: 0px;
+	margin-bottom: 0;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 1.42857143;
+	text-align: center;
+	color: #ffffff;
+}
+.c27-explore-search-button {
+	line-height: 2;
+}
+.mwb-activate-color{
+	background-color: #6c4d92;
+    color: #ffffff;
+}
+/*=====  End of CheckBox & Tab Theme Design  ======*/
+/*===================================================
+=            contact for 7 custom design            =
+===================================================*/
+
+body .mwb_form_field .wpcf7-form-control {
+	font-family: "Abel",GlacialIndifference,sans-serif;
+	border: none !important;
+	border-bottom: 1px solid #e1e1e1 !important;
+}
+body .mwb_form_field .wpcf7-form-control-wrap textarea {
+	border: 1px solid #ededed !important;
+	padding: 20px !important;
+	margin-top: 30px;
+}
+.mwb_form_field  #hur-lange-1 {
+	padding-left: 40px;
+	padding-bottom: 7px;
+}
+.mwb_form_field #nar-88 {
+	padding-bottom: 7px;
+}
+
+/*=====  End of contact for 7 custom design  ======*/
+
+/*=================================================
+=            Front Page Search Bar CSS            =
+=================================================*/
+
+.header-search>i {
+	cursor: pointer;
+	opacity: 1;
+	z-index: 10 !important;
+}
+.header-search>input {
+	background: #f4f4f4;
+	opacity: 0;
+	transition: 0.3s linear all;
+	visibility: hidden;
+}
+.header-search>input::placeholder {
+	color: #000;
+}
+.header-search.active > input {
+	opacity: 1;
+	visibility: visible;
+}
+.home .header-search.active *, .home .header-scroll .header-search.active *, .home .header-scroll .header-search * {
+	color: #000000;
+}
+.header-search.active > input {
+	opacity: 1;
+	visibility: visible;
+	position: fixed;
+	top: 89px;
+	left: 10px;
+	right: auto;
+	width: calc(100% - 20px);
+	border: 1px solid rgba(0,0,0,.15);
+}
+.header-search {
+	position: relative;
+	margin-right: 0px;
+	width: 20px;
+	float: left;
+	z-index: 100;
+	min-width: 20px;
+	clear: both;
+	padding-bottom: 5px!important;
+	top: -3px;
+}
+.instant-results {
+	width: 400px;
+	top: 140px;
+}
+.header .header-container {
+	height: 52px;
+	padding-top: 20px;
+	vertical-align: top !important;
+}
+button:focus {
+	outline: none;
+}
+
+.mwb-loadmore-btn {
+	position: absolute;
+	top: 100px;
+	display: block;
+	border: none;
+	padding: 8px 24px;
+	background: #ba6c67;
+	color: #fff;
+}
+.mwb-loadmore-btn:hover {
+	background: #a15d59;
+}
+.my-listing-custom{
+	display: none;
+}
+/*=====  End of Front Page Search Bar CSS  ======*/
+/*============================================
+=            Load More Button CSS            =
+============================================*/
+.mwb-loadmore-btn {
+	display: inline-block !important;
+	position: static !important;
+}
+
+
+/*=====  End of Load More Button CSS  ======*/
+/*=====  bookamark filter CSS  ======*/
+.mwb-custom-listing-details {
+	position: absolute;
+	top: 0;
+	z-index: 99;
+	width: auto;
+	right: 20px;
+	background: transparent;
+	border: 0;
+}
+.mwb-custom-listing-details .ld-info ul li a {
+	background: #ffffff;
+}
+/*=====  End of bookamark filter CSS  ======*/
+
+/*=====  slider filter CSS  ======*/
+
+.mwb_custom_filters .okej-Lokaltyp .btn {
+	position: static; !important;
+	/*top: auto;*/
+	margin-right: 21px;
+}
+/*.mwb_custom_filters .resu-Lokaltyp{
+width: 766px !important;
+}*/
+.mwb-child {
+	padding-left: 20px;
+}
+.mwb-child .mwb-custom-checkbox label i {
+	font-size: 24px;
+}
+#elementor-lightbox {
+	display: none!important;
+}
+/*=====  End of slider filter CSS ======*/
+
+/*=====  pdf toolbar CSS ======*/
+.mwb_pdf_image {
+	border: 1px solid #cccccc;
+	padding: 10px;
+}
+.mwb_pdf_name {
+	margin-bottom: 15px;
+}
+/*=====  end of pdf toolbar CSS ======*/
+
+.form-group.explore-filter.wp-search-filter {
+    width: calc(100% - 100px) !important;
+    padding-top: 0;
+}
+.tab-pane form .form-group:nth-child(2) {
+    width: 80px!important;
+}
+.featured-search form{
+    justify-content: space-between;
+}
+.featured-search .search{
+    margin: 0 !important;
+}
+#listing_tab_info2 #galleri-1{
+	margin-top: 144px;
+}
+.listing-main-info {
+	bottom: auto!important;
+}
+body.single .header-search>i {
+    color: #ffffff;
+}
+.home .header-scroll.header-scroll-dark-skin .mobile-menu-lines i,
+.header-scroll.header-scroll-dark-skin .search-trigger a i,
+.header-scroll.header-scroll-dark-skin .user-profile-name{
+	color: #000000!important;
+}
+.c27-main-header.header-scroll a.scroll-logo{
+	display: inline-block;
+}
+.c27-main-header.header-scroll a.static-logo{
+	display: none!important;
+}
+.home .c27-main-header.header-fixed .header-skin {
+	background-color: transparent!important;
+}
+.home .c27-main-header.header-scroll .header-skin {
+	background-color: #ffffff!important;
+}
+.header-fixed .header-skin,
+	.header-fixed.header-scroll .header-skin{
+		-webkit-overflow-scrolling: touch;
+}
+
+/*.mwb-tab-content-custom .light-forms .explore-filter input {
+    padding-left: 15px !important;
+    }*/
+    #finderListings.mwb-custom-overlay:after {
+    	content: "";
+    	position: absolute;
+    	left: 0;
+    	right: 0;
+    	background-color: rgba(255,255,255,0.7);
+    	bottom: 0;
+    	top: 0;
+    }
+/*=========================================
+=            Responsive Design            =
+=========================================*/
+@media only screen and (min-width: 1201px) {
+	.resu-Lokaltyp {
+		margin-left: -198px;
+	}
+}
+@media only screen and (max-width: 999px) {
+	.mwb_custom_filters.hela-Plats {
+		border: none;
+		box-shadow: none;
+	}
+	.mwb_custom_headings label::after {
+	    top: 38px !important;
+	    left: 15px !important;
+	}
+	.mwb_custom_headings label::before {
+	    top: 33px;
+	    left: 10px;
+	}
+}
+@media only screen and (max-width: 1200px) {
+	.mwb-filter-plat {
+		border-right: 1px solid #dddddd;
+		position: static;
+		width: 100%;
+	}
+	/*.resu-Lokaltyp a.mwb-custom-cancel-button {
+		position: relative;
+		top: -49px;
+	}*/
+}
+@media only screen and (max-width: 1000px) {
+	.mwb-filter-plat {
+		border-right: none;
+		padding: 15px 0;
+	}
+	.mwb-filter-plat__cat {
+		display: none;
+	}
+	.mwb-filter-plat__sub {
+		border: 1px solid #ddd;
+		border-top: 0;
+		flex: 0 0 100%;
+		padding: 10px;
+	}
+	.mwb-mobile-nav {
+		border: 1px solid #dddddd;
+		display: block;
+		flex: 0 0 100%;
+		font-weight: bold;
+		margin: 2px 0;
+		padding: 10px;
+		position: relative;
+	}
+	.mwb-mobile-nav:after {
+		content: "+";
+		font-size: 18px;
+		position: absolute;
+		right: 15px;
+		top: 50%;
+		transform: translateY(-50%);
+	}
+	.mwb-mobile-nav.active:after {
+		content: "-";
+		font-size: 33px;
+	}
+}
+@media only screen and (max-width: 650px) {
+	.mwb-filter-plat__sub-con {
+		width: 50%;
+	}
+	
+}
+@media only screen and (max-width: 450px) {
+	.mwb-filter-plat__sub-con {
+		width: 100%;
+	}
+}
+@media only screen and (max-width: 992px) {
+	.contact-container-side{
+		height: auto!important;
+		text-align: center;
+	}
+	#listing_tab_centruminfo{
+		padding-left: 0!important;
+		padding-right: 0!important;
+	}
+	.contact-container-side #listing_tab_bokningforfragan_toggle{
+		margin-top: 20px!important;
+	}
+	.reveal_visible #galleri-1{
+		width: 100%!important;
+		margin: 0 !important;
+	}
+	.reveal_visible #galleri-1 .element{
+		padding: 0!important;
+	}
+	.reveal_visible #galleri-1 .pf-head h5{
+		padding: 0 20px!important;
+	}
+}
+@media only screen and (max-width: 1200px) {
+	.mwb_custom_filters.hela-Plats {
+		width: 100% !important;
+		margin-top: -20px!important;
+	}
+	.mwb-tab-content-custom .light-forms .explore-filter input {
+		padding-left: 15px !important;
+	}
+	.header .header-container {
+		height: 52px;
+		padding-top: 0px;
+		vertical-align: top !important;
+	}
+	.header-search {
+		position: absolute;
+		top: 10px;
+		right: 0;
+		color: #fff;
+		display: flex;
+		/*width: 100%;*/
+	}
+	.header-search > i {
+		left: 0;
+		/*right: -16px */;
+		width: 100%;
+		text-align: right;
+	}
+	.instant-results{
+		left: 30px;
+	}
+	.header-search.active > input{
+		top: 80px;
+	}
+	.header .header-container .header-top .logo {
+	    position: static!important;
+	    margin: 0 auto!important;
+	    float: none!important;
+	    transform: none!important;
+	    text-align: center;
+	}
+	.header-search {
+	    right: 15px!important;
+	}
+	.form-group.explore-filter.wp-search-filter{
+		width: 100%!important;
+	}
+	.mwb_custom_filters.hela-Lokaltyp .form-group.explore-filter.checkboxes-filter {
+	    margin-top: -15px !important;
+	    padding-top: 11px!important;
+	}
+	.mwb_custom_filters.hela-Lokaltyp .form-group.explore-filter.checkboxes-filter .namn-Lokaltyp{
+		position: relative;
+    	top: -2px;
+	}
+	#c27-header-search-form_custm_form .header-search { right: 0px!important; }
+	#c27-header-search-form_custm_form .header-search {top:0px;}
+	div#c27-header-search-form_custm_form .header-search>input{width: 100% !important;}
+	div#c27-header-search-form_custm_form .instant-results{top: 6px !important;left:0px !important;}
+	div#c27-header-search-form_custm_form .instant-results {background:#fff;padding-top: 40px !important;}
+div#c27-header-search-form_custm_form .header-search > i {left:0; width: auto;}
+div#c27-header-search-form_custm_form .header-search {position: relative;width: 100%;}
+div#c27-header-search-form_custm_form .header-search input:focus, .header-search input:hover {padding-left: 45px;}
+div#c27-header-search-form_custm_form .header-search input {padding-left: 30px;}
+div#c27-header-search-form_custm_form .instant-results{width: 100% !important;}
+}
+@media screen and (max-width: 767px) {
+   .elementor-6854 .elementor-element.elementor-element-907918d,
+   .elementor-6854 .elementor-element.elementor-element-353b9889 {
+         margin-top: -90px;
+    } 
+}
+
+@media only screen and (max-width: 490px) {
+	.resu-Lokaltyp{
+	    background-color: #f2f2f2!important;
+	}
+	.form-group.explore-filter.wp-search-filter {
+		width: 100% !important;
+		margin-bottom: 10px !important;
+	}
+	.tab-pane form .form-group:nth-child(2) {
+		width: 100% !important;
+	}
+
+}
+@media only screen and (max-width: 480px) {
+	.instant-results{
+		width: 340px;
+	}
+	.header-search.active > input {
+		top: 60px;
+	}
+	.instant-results{
+		top: 120px;
+	}
+	.header .header-container .header-top .logo {
+	left: 0 !important;
+}
+	
+}
+@media screen and (max-width: 320px) {
+    .header .logo img {
+     height: 40px !important;
+    }
+}
+/*=====  End of Responsive Design  ======*/

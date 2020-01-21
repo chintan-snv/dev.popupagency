@@ -1,0 +1,59 @@
+#delete-action {
+	display: none;
+}
+.cs-element.cs-element-cta-text .cs-title {
+	float: none;
+	width: 100%;
+	margin: 0 0 20px;
+}
+.cs-element.cs-element-cta-text .cs-fieldset {
+	width: 100%;
+	left: 0;
+	margin: 0;
+}
+
+/*
+ * Welcome Panel
+ */
+.welcome-panel .welcome-panel-column,
+.welcome-panel .welcome-panel-column:first-child {
+	width: 48%;
+	padding: 0 2% 0 0;
+	margin: 0 0 1em 0;
+}
+
+@media screen and (max-width: 870px) {
+	.welcome-panel .welcome-panel-column,
+	.welcome-panel .welcome-panel-column:first-child {
+		display: block;
+		float: none;
+		width: 100%;
+	}
+}
+
+.welcome-panel h3 {
+	font-size: 16px;
+	font-weight: 600;
+	line-height: 2.1em;
+	margin: 1em 0 1.2em;
+}
+
+.welcome-panel h3 .dashicons {
+	position: relative;
+	top: -2px;
+	display: inline-block;
+	width: 60px;
+	color: #575757;
+	font-size: 40px;
+}
+
+.welcome-panel p a {
+	font-weight: bold;
+}
+
+.welcome-panel-close.temporary {
+	right: 0px; 
+}
+.welcome-panel-close {
+	z-index: 2;
+}

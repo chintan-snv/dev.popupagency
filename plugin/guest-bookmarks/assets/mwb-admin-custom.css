@@ -1,0 +1,20 @@
+#mwb_user_name {
+	width: 30%;
+	padding-left: 20px;
+}
+.mwb_user_name {
+	padding-left: 20px;
+}
+.ml-admin-listing-form .form-field .mwb-md-checkbox input:not(.button), .form-field textarea {
+	display: inline-block !important;
+	width: auto !important;
+	border: 1px solid #716b6b !important;
+	padding: 0 !important;
+	margin-right: 10px;
+}
+.mwb-md-checkbox{
+	display: flex;
+}
+/*.form-field .mwb-md-checkbox input[type="checkbox"]:checked + label::before, .form-field .mwb-md-checkbox input[type="radio"]:checked + label::before{
+	background: #f24286;
+}*/

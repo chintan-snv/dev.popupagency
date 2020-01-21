@@ -1,0 +1,185 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+#magic_shortcodes_details{margin-top:-50px;}
+.ms-tabs .inside{margin-top:-8px !important; padding:0; border:1px solid #CCC;    margin-left: 0px !important;}
+.ms-panel{width:100%; clear:both;}
+.ms-panel-div{width:100%; clear:both;   padding: 10px 0;    overflow: auto;}
+.ms-panel-div label{width:20%; float:left; text-align:right;}
+.ms-panel-div input{width:75%; float:left; text-align:left; margin-left:20px;    display: block;}
+.ms-panel-div textarea{width:100%; float:left; text-align:left; margin-left:20px;    display: block; height: 400px;}
+.ms-panel-div select{width:30%; float:left; text-align:left; margin-left:20px;    display: block;}
+.ms-panel-div input[type=radio]{width:16px; height:16px; float:left; text-align:left; margin-left:20px; display: block; margin-top: 0px;}
+.control-radio label{float:left; width: auto; margin-right: 20px;}
+.control-input {
+    float: left;
+    width: 75%;   
+}
+.control-input label{text-align: left;width: 10%;margin-left: 10px;}
+.wp-picker-container{margin-left:20px;}
+#ct_info{margin-left:-20px;}
+#selective_posts,#selective_pages,#selective_categories,#selective_cpts,#selective_wooCommerce,#certain_height_area,#certain_width_area,#border_radious_area{display:none;}
+.ace_editor{min-width: 600px !important; background: #020219;}
+.ace_text-layer{ color:#597689 !important;}
+.ace_gutter-layer {background: #3c3f41;}
+.ace_gutter-cell{color: #ffffff;}
+.ace_gutter_active_line{background: #47484b;}
+.ms_icon{background: transparent url("../images/ms_icon.png") no-repeat scroll 3% 45% !important;}
+.ms_banner {
+    margin: 12px 0;
+    position: relative;
+    overflow: hidden;
+}
+.ms_banner .button, .ms_banner .button:visited {
+    float: left;
+    border: none;
+    font-size: 14px;
+    margin: 18px 0 18px 16px;
+    padding: 12px 0;
+    color: #FFF;
+    text-shadow: none;
+    font-weight: bold;
+    background: #86c351;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    text-decoration: none;
+    height: 50px;
+    text-align: center;
+    text-transform: uppercase;
+    width: 147px;
+    box-shadow: none;
+    line-height: 26px;
+}
+.ms_banner .button:hover {
+    color: #FFF;
+    background: #0074A2;
+}
+.ms_banner .text {
+    color: #000;
+    font-size: 15px;
+    line-height: 26px;
+    margin: 18px 18px 14px;
+    float: left;
+    width: auto;
+    max-width: 80%;
+}
+.ms_banner .text span {
+    font-size: 12px;
+    opacity: 0.7;
+}
+.ms_banner .close_banner {
+    float: right;
+    margin: 8px;
+    cursor: pointer;
+}
+
+.buynow{ background: #86c351 !important; border: none !important;  -moz-border-radius: 3px;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    text-decoration: none;padding: 12px 0;
+    color: #FFF !important;}
+.learnmore {    
+    background: #0074A2 !important; border: none !important;  -moz-border-radius: 3px;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    text-decoration: none;padding: 12px 0;
+    color: #FFF !important;
+    margin-right: 10px !important;
+}
+
+
+
+
+.about-wrap-msb {
+    position: relative;
+    margin: 25px 40px 0 20px;
+    max-width: 1050px;
+    font-size: 15px;
+}
+.about-wrap-msb h1 {
+    margin: .2em 200px 0 0;
+    padding: 0;
+    color: #32373c;
+    line-height: 1.2em;
+    font-size: 2.8em;
+    font-weight: 400;
+}
+
+.about-wrap-msb h2 {   
+    padding: 0 !important;
+    color: #32373c;
+    line-height: 1.2em !important;
+    font-size: 2.0em !important;
+    font-weight: 400;
+    text-align: center;
+	
+}
+.about-text-msb {
+    margin: 1em 20px 1em 0;
+    min-height: 60px;
+    color: #555d66;
+}
+.about-text-msb {
+    margin-top: 1.4em;
+    font-weight: 400;
+    line-height: 1.6em;
+    font-size: 19px;
+	width: 80%;
+	float: left;
+}
+.about-wrap.fl-badge {
+    background-image: url(../assets/Logo.png) !important;
+}
+.guide_wrap{
+    max-width: 300px;
+    float: left;
+    border: 1px solid #ccc;
+    width: 300px;    
+    margin: 50px 30px 0 0;
+     -webkit-box-shadow: 0px 0px 5px 0px rgba(164, 164, 164, 1);
+    box-shadow: 0px 0px 5px 0px rgba(164, 164, 164, 1);
+    text-align: center;
+    min-height: 300px;
+    font-weight: bold;
+    font-size: 20px;   
+    
+    line-height: 25px;
+}
+.guide_wrap span{
+    margin-top: 150px;    
+    display: inline-block;
+    padding: 20px;
+}
+.guide_wrap a{
+    display: block;
+    height: 300px;
+    color: #555d66;
+}
+.faq {
+    background: url(../assets/faq-icon.png) no-repeat 50% 30% !important;
+}
+.doc {
+    background: url(../assets/doc-icon.png) no-repeat 50% 30% !important;
+}
+.email {
+    background: url(../assets/email-icon.png) no-repeat 50% 30% !important;
+}
+.group{
+    background: url(../assets/group-icon.png) no-repeat 50% 30% !important;
+}
+.tester{
+    background: url(../assets/tester-icon.png) no-repeat 50% 30% !important;
+}
+.help_tab{
+    margin: 20px 0;
+    display: inline-block;
+        font-size: 15px;
+}
+a.menu-icon-ct_msb{
+	background: url(../assets/msb-icon.png) no-repeat 5% center !important;
+}
+a.menu-icon-ct_msb:hover{
+	background: url(../assets/msb-icon-hover.png) no-repeat 5% center !important;
+}

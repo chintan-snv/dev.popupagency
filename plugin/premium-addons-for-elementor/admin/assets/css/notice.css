@@ -1,0 +1,121 @@
+.error.pa-notice-wrap {
+    display: flex;
+    border: none;
+    padding: 0;
+    margin: 0;
+    min-height: 120px;
+    padding-right: 1em;
+    align-items: center;
+}
+.error.pa-notice-wrap div {
+    padding: 0;
+    margin: 0;
+}
+.error.pa-notice-wrap .pa-img-wrap {
+    display: flex;
+    align-items: center;
+    min-height: 120px;
+    padding: 0 0.7em;
+}
+.error.pa-black-notice,
+.error.pa-black-notice .pa-img-wrap {
+    min-height: auto;
+}
+.pa-new-feature-notice .pa-text-wrap {
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: flex;
+    align-items: center;
+    padding:10px 10px 10px 0;
+}
+.pa-new-feature-notice .pa-text-wrap .pa-notice-logo {
+    width: 40px;
+    margin-right: 0.8em;
+}
+.pa-new-feature-notice .pa-text-wrap .pa-notice-close {
+    text-decoration: none;
+    margin-left: 1em;
+    margin-left: auto;
+}
+.error .pa-text-wrap a:focus {
+    box-shadow: none;
+    outline: none;
+    
+}
+.error.pa-notice-wrap .pa-text-wrap {
+    padding-top: 0.3em;
+}
+.error.pa-notice-wrap .pa-img-wrap img {
+    width: 40px;
+}
+.error.pa-notice-wrap .pa-text-wrap a {
+    margin-right: 0.3em;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-style: normal;
+}
+.error.pa-notice-wrap .pa-text-wrap a i {
+    margin-right: 0.1em;
+    margin-top: 0.1em;
+}
+.error.pa-notice-wrap .pa-text-wrap a:first-of-type {
+    background: #0f6aa7
+}
+.error.pa-black-notice .pa-text-wrap a:first-of-type {
+    background: transparent;
+    text-transform: none;
+}
+.error .pa-text-wrap a {
+    margin: 0;
+}
+.pa-notice-wrap .pa-notice-close {
+    -webkit-flex-basis: 56%;
+    -ms-flex-preferred-size: 56%;
+    flex-basis: 56%;
+}
+.pa-notice-close a:focus {
+    outline: none;
+    box-shadow: none;
+}
+.pa-notice-close span {
+    float: right;
+    text-decoration: none;
+}
+.error.pa-notice-wrap .pa-text-wrap a:not(:first-of-type) {
+    margin-left: 0.3em;
+}
+/*
+* Black Friday Notice
+*/
+.error.pa-bf-notice-wrap {
+    position: relative;
+    border: none;
+    padding: 0;
+}
+.pa-bf-notice-img {
+    position: relative;
+}
+.pa-bf-notice-wrap img {
+    display: block;
+}
+.pa-bf-notice-img .pa-bf-notice-cta {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.pa-bf-notice-wrap .pa-notice-close {
+    position: absolute;
+    z-index: 99;
+    color: #fff;
+    top: 1em;
+    right: 0.8em;
+}
+.pa-bf-notice-wrap .pa-notice-close:focus {
+    outline: none;
+    border: none;
+    box-shadow: none;
+}

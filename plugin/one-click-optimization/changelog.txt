@@ -1,0 +1,20 @@
+Wordpress One Click Optimization Plugin Changelog
+
+----------------->
+-> 17.07.2018 - Version: 2.0.3
+-> Updated: CSS Styles
+----------------->
+
+----------------->
+-> 18.03.2018 - Version: 2.0.0
+-> Added: Advanced Settings feature.
+-> Added: WP Admin Panel Optimization.
+-> Updated: CPU Friendly Core.
+-> Updated: Language Files.
+-> Fixed: Someone Bugs and Errors.
+----------------->
+
+----------------->
+-> 09.01.2018 - Version: 1.0.0
+-> Initial Release
+----------------->

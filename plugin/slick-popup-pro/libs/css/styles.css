@@ -1,0 +1,560 @@
+/****************************************************************
+	Enquiry Popup Form Styles 
+****************************************************************/
+div.sppro_curtain {
+  background: none repeat scroll 0 0 rgba(0, 0, 0, 0.85);
+  border-radius: 0;
+  bottom: 0;
+  display: none;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 10002;
+}
+.sppro_popupBoxClose {
+	background: rgba(255,255,255,0.1);
+	font-family: Open Sans; 
+	color: #000;
+	cursor: pointer;
+	font-size: 18px;
+	font-weight: bold;		
+	position: absolute;
+	right: 0;
+	top: 0;
+	transition: all 0.15s ease-in; 	
+	z-index: 100001;
+}
+.sppro_popupBoxClose:hover {
+	background: rgba(255,255,255,0.85);
+	color: #333; 
+	font-weight: bold;
+	
+	/*
+	-ms-transform: rotate(360deg);
+    -webkit-transform: rotate(360deg); 
+    transform: rotate(360deg); */	
+}
+.sppro_popupBoxClose.closeIcon-normal {
+	/*line-height: 68px;*/
+	padding: 0 10px; 
+}
+.sppro_popupBoxClose.closeIcon-circle {
+	height: 24px; 
+	width: 24px; 
+	border-radius: 50%; 
+	text-align: center; 
+	line-height: 24px; 
+}
+.sppro_popup_box.manage {
+	display:none;
+}
+.sppro-showpopup, .sppro-closepopup {
+	cursor: pointer; 
+}
+.sppro_popup_box {
+  bottom: 0;  
+  left: calc(50% - 300px);
+  margin-left: 0px;
+  position: fixed;
+  top: 0;
+  width: 600px;
+  max-width: 90%; 
+  z-index: 100000;  
+  overflow: hidden;
+}
+.sppro_popup_box.sp_image, 
+.sppro_popup_box.sp_video, 
+.sppro_popup_box.sp_maps, 
+.sppro_popup_box.sp_html {
+	overflow: visible;
+}	
+.sppro_popup_box.sp_image .wpcf7, 
+.sppro_popup_box.sp_video .wpcf7, 
+.sppro_popup_box.sp_maps .wpcf7 {
+	display: none
+}
+.sppro_popup_box.sp_image .sppro_form.no-form, 
+.sppro_popup_box.sp_video .sppro_form.no-form, 
+.sppro_popup_box.sp_maps .sppro_form.no-form {
+	display: none
+}	
+.sppro_popup_box.sp_video .sppro_popup_description, 
+.sppro_popup_box.sp_maps .sppro_popup_description, 
+.sppro_popup_box.sp_html .sppro_popup_description {
+	min-width: 95%;
+}
+.sppro_popup_box.sp_video .sppro_form_container, 
+.sppro_popup_box.sp_maps .sppro_form_container, 
+.sppro_popup_box.sp_html .sppro_form_container {
+	width: 95%;
+	margin: 10px 0px -10px 15px !important;
+	border-bottom: 1px solid rgba(0,0,0,0.01) !important;
+    border-radius: 0px !important;
+    height: auto !important;
+}	
+.sppro_popup_box.sp_image{
+	background: rgba(0,0,0,0.01) !important;
+    border-bottom: 5px solid rgba(0,0,0,0.01) !important;
+    border-radius: 0px !important;
+}
+.sppro_popup_box.sp_image .sppro_popupBoxClose.closeIcon-circle{
+    background: red;
+    color: white;
+}
+.sppro_popup_box.sp_image .sppro_form_container  {
+    width: 100%;
+}
+.sppro_popup_box.sp_image .sppro_popup_description  {
+    padding: 0; 
+    margin: 0; 
+    width: 100%;
+}
+.sppro_popup_box.sp_image .sppro_popup_description img {
+    margin: 0; 
+}
+.sp_image img {
+    width: 100%;
+    height: 100%;
+}
+.sppro_popup_box  a:hover {
+	text-decoration: none; 
+}
+.sppro_form_container {
+	max-height: 100%; 	
+	overflow: hidden; 
+}
+.sppro_popup_title {
+  margin-bottom: 0px;
+  padding: 10px 20px;
+  text-align: center;
+}
+.sppro_popup_description {  
+  margin: 20px auto 20px;
+  text-align:center;
+  width: 90%;
+}
+.no-form {
+  text-align: center;
+  margin: 60px 0;
+  padding: 40px 0;
+  font-weight: bold;
+  color: slategrey;
+}
+
+
+/****************************************************************
+	Side Button
+****************************************************************/
+a.sppro_sideEnquiry {
+  cursor: pointer;
+  height: auto;
+  padding: 5px 10px;
+  position: fixed;
+  text-align: center;
+  text-decoration: none;
+  z-index: 1001;
+  white-space:nowrap;
+}
+a.sppro_sideEnquiry.pos_right {  
+  right: -52px;
+  top: 47.5%;
+  height: auto;
+  transform: rotate(-90deg);
+  -webkit-transform: rotate(-90deg);
+  -moz-transform: rotate(-90deg);
+  -o-transform: rotate(-90deg);
+  border-radius: 5px 5px 0 0;
+}
+a.sppro_sideEnquiry.pos_left {  
+  left: -50px;
+  top: 45%;
+  height: auto;
+  transform: rotate(90deg);
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+  border-radius: 5px 5px 0 0;
+}
+a.sppro_sideEnquiry.pos_bottom {  
+  left: -50px;
+  bottom: 0; 
+  height: auto;
+  border-radius: 5px 5px 0 0;
+}
+a.sppro_sideEnquiry.pos_botright {  
+  right: 0; 
+  bottom: 0; 
+  height: auto;
+  border-radius: 5px 0 0 0;
+}
+a.sppro_sideEnquiry.pos_botleft {  
+  left: 0;  
+  bottom: 0;
+  height: auto; 
+  border-radius: 0 5px 0 0;
+}
+a.sppro_sideEnquiry.pos_botcenter {  
+  left: 45%;  
+  bottom: 0; 
+  height: auto;
+  border-radius: 5px 5px 0 0;
+}
+a.sppro_sideEnquiry.pos_top {  
+  left: -50px;  
+  top: 0; 
+  height: auto;
+  border-radius: 0 0 5px 5px;
+}
+a.sppro_sideEnquiry.pos_topleft {  
+  left: 0;  
+  top: 0; 
+  height: auto;
+  border-radius: 0 0 5px 0;
+}
+a.sppro_sideEnquiry.pos_topright {  
+  right: 0;  
+  top: 0;
+  height: auto; 
+  border-radius: 0 0 0 5px;
+}
+a.sppro_sideEnquiry.pos_topcenter {  
+  left: 45%;  
+  top: 0; 
+  height: auto;
+  border-radius: 0 0 5px 5px;
+}
+a.sppro_sideEnquiry:hover {
+	color: #efefef; 	
+	text-decoration: none; 
+}
+
+/****************************************************************
+	Popup Layouts
+****************************************************************/
+.sppro_popup_box.layout_full {  
+  max-height: 100%;
+}
+.sppro_popup_box.layout_centered {  
+  max-height: 76%;
+  top: 12%;
+}
+.sppro_popup_box.layout_full-page {  
+  max-height: 100%; 
+  height: 100%; 
+  width: 100%; 
+  max-width: 100%; 
+  left: 0; 
+}
+.sppro_popup_box.layout_full-page .sppro_form_container {  
+	max-width: 100%; 
+	margin-left: auto; 
+	margin-right: auto; 
+}
+.sppro_popup_box.layout_corner-fixed  {  
+	width: 600px; 
+}
+.sppro_popup_box.layout_corner-fixed.corner_left  {  
+	left: 0; 
+}
+.sppro_popup_box.layout_corner-fixed.corner_right  {  
+	left: auto; 
+	right: 0; 
+}
+.sppro_popup_box.layout_widgetized  {  
+	width: 420px; 
+	height: 440px; 
+}
+.sppro_popup_box.layout_widgetized.left_bottom {  
+	left: 0; 
+	top: auto; 
+	bottom: 0; 
+	right: auto; 
+}
+.sppro_popup_box.layout_widgetized.right_bottom {  
+	top: auto; 
+	left: auto; 
+	bottom: 0; 
+	right: 0;	
+}
+.sppro_popup_box.layout_widgetized.centered_bottom {  
+	top: auto; 
+	left: auto; 
+	bottom: 0; 
+	right: auto; 
+}
+.sppro_popup_box.layout_widgetized.left_top {  
+	left: 0; 
+	top: 0; 
+	right: auto; 
+}
+.sppro_popup_box.layout_widgetized.right_top {  
+	top: 0; 
+	right: 0;	
+	left: auto; 
+}
+.sppro_popup_box.layout_widgetized.centered_top {  
+	top: 0; 
+	right: auto; 
+	left: auto; 	
+}
+
+/****************************************************************
+	Form Styles
+****************************************************************/
+.sppro_popup_box .wpcf7 {	
+	width: 90%;
+	margin: 0 auto 
+}
+.sppro_popup_box .wpcf7 ul {
+  list-style: none outside none;
+  margin: 0;
+}
+.sppro_popup_box form{
+	
+}
+.sppro_popup_box form p {
+	margin-bottom: 5px; 
+}
+.sppro_popup_box li > span{
+	width: 100%;
+}
+.sppro_popup_box .wpcf7-form-control-wrap {
+	display: block;
+	position: relative; 
+}
+.sppro_popup_box .wpcf7-form-control-wrap + .wpcf7-checkbox, 
+.sppro_popup_box .wpcf7-form-control-wrap + .wpcf7-radio {
+	display: inherit; 
+}
+
+/* #wpcf7-f251-p24-o2 input, #wpcf7-f251-p24-o2 textarea { */
+/*.sppro_popup_box input, .sppro_popup_box input[type="text"], .sppro_popup_box textarea, .sppro_popup_box  select  { */
+.sppro_popup_box input[type="*"], .sppro_popup_box input[type="text"], 
+.sppro_popup_box input[type="password"], .sppro_popup_box input[type="url"], 
+.sppro_popup_box input[type="email"], .sppro_popup_box input[type="tel"], 
+.sppro_popup_box input[type="date"], .sppro_popup_box input[type="number"],  
+.sppro_popup_box input[type="hidden"], .sppro_popup_box textarea, .sppro_popup_box select {
+  padding: 8px 6px;  
+  border: 1px solid #ccc;
+  border-radius: 2px;
+  max-width:none;  
+  width: 100%; 
+  margin-bottom: 0;  
+  transition: all 0.4s ease-in; 
+  height: 36px; 
+}
+#splite_popup_box input[type=checkbox], #splite_popup_box input[type=radio] {
+	height: auto; 
+	padding: 0; 
+	width: auto; 
+}
+#splite_popup_box input[type="submit"] {
+	height: auto; 
+}
+.sppro_popup_box textarea {
+	height: 80px;
+}
+.sppro_popup_box  select  {
+}
+.sppro_popup_box .wpcf7-quiz-label {
+  color: #484848;
+  display: inline;
+  margin-top: 20px;
+}
+.sppro_popup_box input.wpcf7-form-control.wpcf7-quiz {
+  margin: 0 0 0 20px;
+  text-align: center;
+  width: 40px;
+}
+.sppro_popup_box input.wpcf7-form-control.wpcf7-submit {  
+	width: auto;
+	margin: 20px auto 10px;
+	float: none;
+	display: block;	
+}
+.sppro_popup_box  div.wpcf7 img.ajax-loader {
+  border: none;
+  vertical-align: middle;
+  margin: 3px auto 5px;
+	background: #f1f1f1 none repeat scroll 0 0;
+	border-radius: 50%;
+	box-shadow: 0 0 5px 3px #333333;
+	height: 40px;
+	left: calc(50% - 22.5px);
+	padding: 5px;
+	position: fixed;
+	top: calc(50% - 22.5px);
+	visibility: visible;
+	width: 40px;
+}
+/* Ajax Loader for Contact Form 7 - Version 4.6 */
+.sppro_popup_box  div.wpcf7 span.ajax-loader {
+	border-radius: 50%;
+	left: calc(50% - 22.5px);
+	position: absolute;
+	top: calc(50% - 22.5px);
+}
+.sppro_popup_box.layout_widgetized div.wpcf7 span.ajax-loader {
+	position: absolute;
+}
+.sppro_popup_box div.wpcf7 span.ajax-loader.is-active {
+	background-color: #f1f1f1;
+	padding: 20px; 
+	height: 25px;
+	width: 25px;
+	background-size: 50%;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+.sppro_popup_box .widget_widget_text {
+    display: none;
+}
+.sppro_popup_box div.wpcf7-response-output {
+	font-size: 0.85em;
+    line-height: 1.3em;
+    margin: 0;
+    padding: 5px 10px 0px;
+    border-radius: 0;
+    border: 0;
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+	left: 0; 
+	text-align: center; 
+	font-family: Open Sans; 
+}
+.sppro_popup_box div.wpcf7-mail-sent-ok {
+	border: 0px solid #efefef;
+	border-bottom:0;
+	color: #074C97;
+}
+.sppro_popup_box .wpcf7-not-valid {
+	border-color: #ff0033 !important; 
+}
+
+.sppro_popup_box .wpcf7-form > p {
+  letter-spacing: 1px;
+}
+
+/* Slick Popup Column Classes */
+.spp-row {
+  overflow: hidden;
+}
+.spp-left-col {
+	float: left;
+  width: 49%;
+  padding-right: 5px;
+}
+.spp-right-col {
+	float: left;
+  width: 49%;
+  padding-left: 5px;
+}
+.spp-full-col {
+	float: none; 
+	width: 100%; 
+	display: block; 
+}
+.spp-clear {
+	clear: both;
+	display: block; 
+}
+span.wpcf7-list-item {
+    display: block;
+    margin: 0 0 0 1em;
+}
+
+
+/************************************
+******** LOGIN FORM STYLES ***********
+*************************************/
+.sppro_popup_box.login {
+    width: 320px;
+    height: 340px;
+}
+.sppro_popup_box.login .sppro_popup_description {
+    display: none;
+}
+.sppro-form {
+  border-radius: 5px;
+  padding: 20px;
+  max-width: 300px;
+  max-height: 375px;
+	transition: all 0.7s ease-in; 
+}
+.sppro-form-row {
+	margin-bottom: 0.5rem; 	
+}
+.sppro-form-row:last-child {
+	margin-bottom: 0; 	
+}
+.sppro-form .sppro-submit {
+    background-color: green; 
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.sppro-form .sppro-submit:hover {
+    background-color: #00A560;
+}
+.sppro-submit.sppro_lostpassword_button {
+	width: 100%; 
+}
+.sppro_toggleHandle {
+    font-size: 0.85em;
+    display: inline-block;
+    float: right;
+    line-height: 60px;
+}
+.sppro-status {
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+  width: 100%;
+  left: 0;
+  font-size: 0.9em;
+  font-weight: bold;		
+	padding-top: 5px; 
+}
+.sppro_popup_box form .sppro-status p {
+	margin-bottom: 0; 
+}
+.sppro-status p.error {
+	
+}
+.sppro-status p.success {
+	
+}
+.toggleHandle {
+	float: right; 
+}
+.sppro-form {
+	margin: 0px auto;
+}
+
+
+@media (max-width: 767px) {	
+	a.sppro_sideEnquiry.on_mobile {
+		font-size: 13px;
+		padding: 3px 10px; 
+	}
+	a.sppro_sideEnquiry.disabled_on_mobile {
+		display: none; 
+	}
+	
+	.sppro_popup_box input.wpcf7-form-control.wpcf7-submit {
+		width: 60%;
+		width: auto;
+	}
+	
+	.sppro_form_container {
+		overflow-y: scroll;
+	}
+}
+
+@media (max-width: 480px) {
+	
+}

@@ -1,0 +1,27 @@
+#sp_opts-choose-color-scheme li span,
+#sp_opts-choose-layout li span {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 20px;
+  text-align: center;
+}
+#info-notice-activation-mode p {
+	margin: 0; 
+}
+.sppro-ad {
+	margin: 10px 0; 
+	display: block; 
+	text-align: center; 
+}
+.sppro-after-menu {
+    padding: 10px;
+    line-height: 1.5em;
+    background: antiquewhite;
+    color: #333;
+}
+.sppro-after-menu h3 {
+    margin: 5px auto; 
+}
+.sppro-after-menu p {
+    margin: 0px; 
+}

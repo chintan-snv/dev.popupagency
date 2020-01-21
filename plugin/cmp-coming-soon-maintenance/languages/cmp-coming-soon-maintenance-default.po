@@ -1,0 +1,1775 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cmp-coming-soon-maintenance\n"
+"POT-Creation-Date: 2019-05-20 18:32+0200\n"
+"PO-Revision-Date: 2019-05-20 18:32+0200\n"
+"Last-Translator: \n"
+"Language-Team: Niteothemes <info@niteothemes.com>\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.6\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: _e;__\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: cmp-advanced.php:217
+msgid "CMP Page Whitelist and Blacklist Settings"
+msgstr ""
+
+#: cmp-advanced.php:225 cmp-advanced.php:369
+msgid "Whitelist Settings"
+msgstr ""
+
+#: cmp-advanced.php:230
+msgid "Page Whitelist"
+msgstr ""
+
+#: cmp-advanced.php:236
+msgid "Page Blacklist"
+msgstr ""
+
+#: cmp-advanced.php:242 cmp-advanced.php:380 cmp-advanced.php:443
+#: cmp-settings.php:922 cmp-settings.php:923
+#: inc/settings/settings-background.php:366
+#: inc/settings/settings-contact_form-disabled.php:24
+#: inc/settings/settings-contact_form.php:46
+#: inc/settings/settings-counter-disabled.php:19
+#: inc/settings/settings-counter.php:60
+#: inc/settings/settings-footer-disabled.php:6
+#: inc/settings/settings-logo-disabled.php:28
+#: inc/settings/settings-logo-disabled.php:29 inc/settings/settings-logo.php:29
+#: inc/settings/settings-logo.php:30
+#: inc/settings/settings-slider-disabled.php:22
+#: inc/settings/settings-slider.php:51
+#: inc/settings/settings-special_effects-disabled.php:30
+#: inc/settings/settings-special_effects.php:42
+#: inc/settings/settings-subscribe-disabled.php:30
+#: inc/settings/settings-subscribe.php:80
+msgid "Disabled"
+msgstr ""
+
+#: cmp-advanced.php:251
+msgid "CMP Whitelist - limit CMP Page to specific pages only."
+msgstr ""
+
+#: cmp-advanced.php:253 cmp-advanced.php:275
+msgid "Homepage"
+msgstr ""
+
+#: cmp-advanced.php:261
+msgid ""
+"By default CMP is enabled on all pages. Leave this field empty to use "
+"default settings."
+msgstr ""
+
+#: cmp-advanced.php:263 cmp-advanced.php:285
+msgid "You can also add the Page URLs manually."
+msgstr ""
+
+#: cmp-advanced.php:273
+msgid "CMP Blacklist - select the pages to NOT display CMP landing page."
+msgstr ""
+
+#: cmp-advanced.php:283
+msgid "If you want to exclude some pages from CMP you can select them here."
+msgstr ""
+
+#: cmp-advanced.php:294
+msgid ""
+"Insert separate URL at each line. Please make sure your Permalinks work "
+"correctly!<br> You can also use asterisk (*) as a wildcard to match any "
+"string."
+msgstr ""
+
+#: cmp-advanced.php:296
+msgid ""
+"CMP landing page is displayed on all pages by default. You can enable Page "
+"Whitelist to display CMP only on specific page(s) or Page Blacklist to "
+"exclude CMP landing page on specific page(s) by enabling Page Whitelist or "
+"Page Blacklist here."
+msgstr ""
+
+#: cmp-advanced.php:310
+msgid "CMP Bypass by User Roles"
+msgstr ""
+
+#: cmp-advanced.php:317
+msgid "User Roles Settings"
+msgstr ""
+
+#: cmp-advanced.php:321
+msgid "Bypass User Roles"
+msgstr ""
+
+#: cmp-advanced.php:329
+msgid "Select User Roles to bypass CMP landing page."
+msgstr ""
+
+#: cmp-advanced.php:346
+msgid "Administrator role always bypass CMP by default."
+msgstr ""
+
+#: cmp-advanced.php:361
+msgid "CMP Bypass URL"
+msgstr ""
+
+#: cmp-advanced.php:374 cmp-advanced.php:437
+#: inc/settings/settings-counter-disabled.php:13
+#: inc/settings/settings-counter.php:54
+#: inc/settings/settings-slider-disabled.php:16
+#: inc/settings/settings-slider.php:45
+msgid "Enabled"
+msgstr ""
+
+#: cmp-advanced.php:391
+msgid "Bypass URL"
+msgstr ""
+
+#: cmp-advanced.php:394
+msgid ""
+"You can use this URL to bypass CMP maintenance page. Once you access your "
+"website with this URL, CMP Cookie will be set with default expiration of 2 "
+"days. If the cookie expires, you need to access your website again with this "
+"URL."
+msgstr ""
+
+#: cmp-advanced.php:396
+msgid "Set Bypass Passphrase"
+msgstr ""
+
+#: cmp-advanced.php:399
+msgid ""
+"You can use passphrase which contains letters, numbers, underscores or "
+"dashes only."
+msgstr ""
+
+#: cmp-advanced.php:401
+msgid "Set bypass cookie Expiration Time in seconds"
+msgstr ""
+
+#: cmp-advanced.php:404
+msgid ""
+"You can set custom Bypass CMP Cookie expiration time in seconds (1hour = "
+"3600). Default expiration time is 2 days (172800)."
+msgstr ""
+
+#: cmp-advanced.php:406
+msgid ""
+"Please note this solution is using browser cookies which might not work "
+"correctly if you are using caching plugins."
+msgstr ""
+
+#: cmp-advanced.php:410
+msgid ""
+"You can Enable CMP Bypass where you can set custom URL parameter to bypass "
+"CMP page. You can send this URL to anyone who would like to sneak peak into "
+"your Website while it is under development or maintanence."
+msgstr ""
+
+#: cmp-advanced.php:424 cmp-advanced.php:432
+msgid "CMP Top Bar Icon"
+msgstr ""
+
+#: cmp-advanced.php:451
+msgid "You can specify which roles have access to CMP Top Bar icon."
+msgstr ""
+
+#: cmp-advanced.php:468
+msgid "Administrator role can always access Top Bar Icon"
+msgstr ""
+
+#: cmp-advanced.php:472
+msgid "CMP Top Bar Icon is disabled."
+msgstr ""
+
+#: cmp-advanced.php:474
+msgid ""
+" If you enable it again, you can quickly enable or disable Coming Soon Mode "
+"or check out CMP Preview without visiting CMP Settings Plugin page."
+msgstr ""
+
+#: cmp-advanced.php:488
+msgid "Custom External Scripts"
+msgstr ""
+
+#: cmp-advanced.php:495
+msgid "Add External Head Scripts"
+msgstr ""
+
+#: cmp-advanced.php:499
+msgid "Head Scripts"
+msgstr ""
+
+#: cmp-advanced.php:506 cmp-advanced.php:548
+msgid "Insert Javascript or CSS external file URL"
+msgstr ""
+
+#: cmp-advanced.php:527 cmp-advanced.php:569
+msgid "Add More"
+msgstr ""
+
+#: cmp-advanced.php:537
+msgid "Add External Footer Scripts"
+msgstr ""
+
+#: cmp-advanced.php:541
+msgid "Footer Scripts"
+msgstr ""
+
+#: cmp-help.php:12
+msgid "Thank you for using our CMP – Coming Soon & Maintenance plugin"
+msgstr ""
+
+#: cmp-help.php:13
+msgid ""
+"If you have any questions or issue feel free to ask on Wordpress Support "
+"Forum! We are happy to help :)"
+msgstr ""
+
+#: cmp-help.php:15
+msgid "WordPress Support Forum"
+msgstr ""
+
+#: cmp-settings.php:559
+msgid ""
+"JavaScript appears to be disabled in your browser. For this plugin to work "
+"correctly, please enable JavaScript or switch to a more modern browser."
+msgstr ""
+
+#: cmp-settings.php:579
+msgid "Settings"
+msgstr ""
+
+#: cmp-settings.php:581 inc/settings/settings-footer.php:63
+msgid "Content"
+msgstr ""
+
+#: cmp-settings.php:583
+msgid "Customize"
+msgstr ""
+
+#: cmp-settings.php:585
+msgid "SEO & Analytics"
+msgstr ""
+
+#: cmp-settings.php:587
+msgid "Custom CSS"
+msgstr ""
+
+#: cmp-settings.php:589
+msgid "Preview"
+msgstr ""
+
+#: cmp-settings.php:598
+msgid "General Settings"
+msgstr ""
+
+#: cmp-settings.php:602
+msgid "CMP Status"
+msgstr ""
+
+#: cmp-settings.php:614
+msgid "Whole Website"
+msgstr ""
+
+#: cmp-settings.php:619
+msgid "Homepage only"
+msgstr ""
+
+#: cmp-settings.php:624
+msgid "Whitelist/Blacklist"
+msgstr ""
+
+#: cmp-settings.php:631
+msgid "CMP Mode"
+msgstr ""
+
+#: cmp-settings.php:634
+msgid "Coming Soon & Landing Page"
+msgstr ""
+
+#: cmp-settings.php:635
+msgid ""
+"Returns standard 200 HTTP OK response code to indexing robots. Set this "
+"option if you want to use our plugin as \"Coming Soon\" page."
+msgstr ""
+
+#: cmp-settings.php:639
+msgid "Maintanance Mode"
+msgstr ""
+
+#: cmp-settings.php:640
+msgid ""
+"Returns 503 HTTP Service unavailable code to indexing robots. Set this "
+"option if your site is down due to maintanance and you want to display "
+"Maintanance page."
+msgstr ""
+
+#: cmp-settings.php:644
+msgid "Redirect Mode"
+msgstr ""
+
+#: cmp-settings.php:645
+msgid ""
+"Choose Redirect Mode if you want to redirect your website to another URL."
+msgstr ""
+
+#: cmp-settings.php:648
+msgid "Delay Time in Seconds"
+msgstr ""
+
+#: cmp-settings.php:689
+msgid "Main Content"
+msgstr ""
+
+#: cmp-settings.php:693
+msgid "Heading"
+msgstr ""
+
+#: cmp-settings.php:696 inc/settings/settings-background.php:434
+#: inc/settings/settings-background.php:437
+#: inc/settings/settings-background.php:440
+#: inc/settings/settings-contact_form.php:62
+#: inc/settings/settings-subscribe.php:124
+msgid "Leave empty to disable"
+msgstr ""
+
+#: cmp-settings.php:702
+msgid "Message"
+msgstr ""
+
+#: cmp-settings.php:705
+msgid ""
+"WordPress embeds are fully supported. You can also add any custom HTML. No "
+"3rd party shortcodes are currently supported."
+msgstr ""
+
+#: cmp-settings.php:819
+msgid "SEO Settings"
+msgstr ""
+
+#: cmp-settings.php:824
+msgid "Favicon"
+msgstr ""
+
+#: cmp-settings.php:836
+msgid ""
+"By default your standard Favicon will be used but you can override it for "
+"CMP page by selecting different Favicon."
+msgstr ""
+
+#: cmp-settings.php:844
+msgid "SEO Title"
+msgstr ""
+
+#: cmp-settings.php:848
+msgid "It is recommended to keep title under 60 characters."
+msgstr ""
+
+#: cmp-settings.php:854
+msgid "SEO Description"
+msgstr ""
+
+#: cmp-settings.php:858
+msgid "It is recommended to keep description between 50–300 characters."
+msgstr ""
+
+#: cmp-settings.php:864
+msgid "SEO Image"
+msgstr ""
+
+#: cmp-settings.php:876
+msgid ""
+"By default seleceted Background image is displayed on Social Networks if "
+"your Website is shared. You can overwrite the image by selecting your custom "
+"image here."
+msgstr ""
+
+#: cmp-settings.php:884
+msgid "Search Engine Visibility"
+msgstr ""
+
+#: cmp-settings.php:887
+msgid ""
+"Discourage search engines from indexing this site - applies only for CMP "
+"page."
+msgstr ""
+
+#: cmp-settings.php:888
+msgid "It is up to search engines to honor this request."
+msgstr ""
+
+#: cmp-settings.php:895
+msgid "No-cache Headers"
+msgstr ""
+
+#: cmp-settings.php:898
+msgid ""
+"Send no-cache headers. If you don't want the CMP page's preview to be cached "
+"by Facebook or other social media then enable this option."
+msgstr ""
+
+#: cmp-settings.php:910
+msgid "Website Analytics"
+msgstr ""
+
+#: cmp-settings.php:918
+msgid "Analytics"
+msgstr ""
+
+#: cmp-settings.php:928 cmp-settings.php:929
+msgid "Google Analytics"
+msgstr ""
+
+#: cmp-settings.php:934 cmp-settings.php:935
+msgid "Other"
+msgstr ""
+
+#: cmp-settings.php:944
+msgid "Analytics is disabled"
+msgstr ""
+
+#: cmp-settings.php:947
+msgid "Insert Google Analytics Tracking ID"
+msgstr ""
+
+#: cmp-settings.php:952
+msgid "Insert your Analytics Javascript code without script tags."
+msgstr ""
+
+#: cmp-settings.php:966
+msgid "Enter Custom CSS"
+msgstr ""
+
+#: cmp-sidebar.php:4
+msgid "Selected CMP Theme"
+msgstr ""
+
+#: cmp-sidebar.php:19
+msgid ""
+"If you really love our CMP plugin you can also donate few bucks by clicking "
+"Donate button below."
+msgstr ""
+
+#: cmp-sidebar.php:31
+msgid "Thank you for rating us with five stars!"
+msgstr ""
+
+#: cmp-sidebar.php:32
+#, php-format
+msgid ""
+"If you find our CMP plugin useful, please show us some love and give 5%s "
+"feedback by pressing button below."
+msgstr ""
+
+#: cmp-sidebar.php:35
+msgid "Leave Feedback"
+msgstr ""
+
+#: cmp-sidebar.php:42
+msgid ""
+"Also don`t forget you can ask Wordpress Community or our NiteoThemes expert "
+"support. For a help simply visit link below."
+msgstr ""
+
+#: cmp-sidebar.php:42
+msgid "Wordpress Support Forum"
+msgstr ""
+
+#: cmp-sidebar.php:49
+msgid "Request new features"
+msgstr ""
+
+#: cmp-sidebar.php:50
+#, php-format
+msgid ""
+"Do you miss some feature or do you have idea how to improve CMP plugin? You "
+"can %s on official Wordpress Support Forum."
+msgstr ""
+
+#: cmp-subscribers.php:25
+msgid "View / Edit CMP Subscribers"
+msgstr ""
+
+#: cmp-subscribers.php:26
+msgid ""
+"If you use MailChimp integration, you must check your Subscribers directly "
+"in MailChimp!"
+msgstr ""
+
+#: cmp-subscribers.php:31
+msgid "Export All Subscribers"
+msgstr ""
+
+#: cmp-translate.php:11 cmp-translate.php:32
+msgid "Seconds"
+msgstr ""
+
+#: cmp-translate.php:12 cmp-translate.php:33
+msgid "Minutes"
+msgstr ""
+
+#: cmp-translate.php:13 cmp-translate.php:34
+msgid "Hours"
+msgstr ""
+
+#: cmp-translate.php:14 cmp-translate.php:35
+msgid "Days"
+msgstr ""
+
+#: cmp-translate.php:15 cmp-translate.php:36
+msgid "Insert your email address."
+msgstr ""
+
+#: cmp-translate.php:16 cmp-translate.php:37
+msgid "Oops! This email address is already on our list."
+msgstr ""
+
+#: cmp-translate.php:17 cmp-translate.php:38
+msgid "Oops! We need a valid address. Please try again."
+msgstr ""
+
+#: cmp-translate.php:18 cmp-translate.php:39
+msgid "Thank you! Your sign up request was successful."
+msgstr ""
+
+#: cmp-translate.php:19 cmp-translate.php:40
+msgid "Submit"
+msgstr ""
+
+#: cmp-translate.php:20 cmp-translate.php:41
+msgid "Scroll"
+msgstr ""
+
+#: cmp-translate.php:21 cmp-translate.php:42 inc/class-cmp-subscribers.php:191
+msgid "First Name"
+msgstr ""
+
+#: cmp-translate.php:22 cmp-translate.php:43 inc/class-cmp-subscribers.php:192
+msgid "Last Name"
+msgstr ""
+
+#: cmp-translate.php:23 cmp-translate.php:44
+msgid "Subscribe"
+msgstr ""
+
+#: cmp-translate.php:37
+msgid "Oops! This email address is already on our list"
+msgstr ""
+
+#: cmp-translate.php:71 niteo-cmp.php:395
+msgid "CMP Translation"
+msgstr ""
+
+#: cmp-translate.php:72
+msgid ""
+"You can edit any text on CMP landing page - button labels, countdown, "
+"subscription messages, etc."
+msgstr ""
+
+#: cmp-translate.php:77 inc/class-cmp-render_settings.php:35
+msgid "Save All Changes"
+msgstr ""
+
+#: cmp-upload.php:17
+msgid "Install New CMP Theme"
+msgstr ""
+
+#: cmp-upload.php:22
+msgid "Select CMP Theme ZIP file to upload"
+msgstr ""
+
+#: inc/class-cmp-feedback.php:65
+#, php-format
+msgid "%s years"
+msgstr ""
+
+#: inc/class-cmp-feedback.php:67
+msgid "a year"
+msgstr ""
+
+#: inc/class-cmp-feedback.php:73
+#, php-format
+msgid "%s weeks"
+msgstr ""
+
+#: inc/class-cmp-feedback.php:75
+msgid "a week"
+msgstr ""
+
+#: inc/class-cmp-feedback.php:81
+#, php-format
+msgid "%s days"
+msgstr ""
+
+#: inc/class-cmp-feedback.php:83
+msgid "a day"
+msgstr ""
+
+#: inc/class-cmp-feedback.php:89
+#, php-format
+msgid "%s hours"
+msgstr ""
+
+#: inc/class-cmp-feedback.php:91
+msgid "an hour"
+msgstr ""
+
+#: inc/class-cmp-feedback.php:97
+#, php-format
+msgid "%s minutes"
+msgstr ""
+
+#: inc/class-cmp-feedback.php:99
+msgid "a minute"
+msgstr ""
+
+#: inc/class-cmp-feedback.php:105
+#, php-format
+msgid "%s seconds"
+msgstr ""
+
+#: inc/class-cmp-feedback.php:107
+msgid "a second"
+msgstr ""
+
+#: inc/class-cmp-feedback.php:161
+msgid "Do you like CMP - Coming soon & Maintenace Plugin?"
+msgstr ""
+
+#: inc/class-cmp-feedback.php:196
+msgid "CMP - Coming Soon & Maintenance"
+msgstr ""
+
+#: inc/class-cmp-render_html.php:617
+msgid "Phone"
+msgstr ""
+
+#: inc/class-cmp-subscribers.php:15
+msgid "subscriber"
+msgstr ""
+
+#: inc/class-cmp-subscribers.php:16
+msgid "subscribers"
+msgstr ""
+
+#: inc/class-cmp-subscribers.php:65
+msgid "Delete Selected"
+msgstr ""
+
+#: inc/class-cmp-subscribers.php:66
+msgid "Delete All"
+msgstr ""
+
+#: inc/class-cmp-subscribers.php:81
+msgid "Delete"
+msgstr ""
+
+#: inc/class-cmp-subscribers.php:190
+msgid "ID"
+msgstr ""
+
+#: inc/class-cmp-subscribers.php:193 niteo-cmp.php:1463
+msgid "Email"
+msgstr ""
+
+#: inc/class-cmp-subscribers.php:194
+msgid "Time"
+msgstr ""
+
+#: inc/class-cmp-subscribers.php:195
+msgid "IP Address"
+msgstr ""
+
+#: inc/class-cmp-subscribers.php:279
+msgid "No subscribers yet!"
+msgstr ""
+
+#: inc/class-cmp-translate.php:19
+msgid "Translation string"
+msgstr ""
+
+#: inc/class-cmp-translate.php:20
+msgid "Tranlation String"
+msgstr ""
+
+#: inc/class-cmp-translate.php:48
+msgid "String"
+msgstr ""
+
+#: inc/class-cmp-translate.php:49
+msgid "Translation"
+msgstr ""
+
+#: inc/class-cmp-translate.php:94
+msgid "No Translation Variables!"
+msgstr ""
+
+#: inc/cmp-activation-notice.php:19
+msgid "Thank you for installing CMP - Coming soon & Maintenance Plugin!"
+msgstr ""
+
+#: inc/settings/settings-background.php:5
+msgid "Blury Beach"
+msgstr ""
+
+#: inc/settings/settings-background.php:6
+msgid "Miaka"
+msgstr ""
+
+#: inc/settings/settings-background.php:7
+msgid "Influenza"
+msgstr ""
+
+#: inc/settings/settings-background.php:8
+msgid "Calm Darya"
+msgstr ""
+
+#: inc/settings/settings-background.php:9
+msgid "Shroom Haze"
+msgstr ""
+
+#: inc/settings/settings-background.php:10
+msgid "Purlple Paradise"
+msgstr ""
+
+#: inc/settings/settings-background.php:11
+msgid "Aqua Marine"
+msgstr ""
+
+#: inc/settings/settings-background.php:12
+msgid "Bloody Mary"
+msgstr ""
+
+#: inc/settings/settings-background.php:13
+msgid "Rose Water"
+msgstr ""
+
+#: inc/settings/settings-background.php:14
+msgid "Horizon"
+msgstr ""
+
+#: inc/settings/settings-background.php:15
+msgid "Youtube"
+msgstr ""
+
+#: inc/settings/settings-background.php:16
+msgid "Sublime Vivid"
+msgstr ""
+
+#: inc/settings/settings-background.php:17
+msgid "Red"
+msgstr ""
+
+#: inc/settings/settings-background.php:18
+msgid "Orange"
+msgstr ""
+
+#: inc/settings/settings-background.php:19
+msgid "Yellow"
+msgstr ""
+
+#: inc/settings/settings-background.php:20
+msgid "Green"
+msgstr ""
+
+#: inc/settings/settings-background.php:21
+msgid "Green Pastel"
+msgstr ""
+
+#: inc/settings/settings-background.php:22
+msgid "Sky blue"
+msgstr ""
+
+#: inc/settings/settings-background.php:23
+msgid "Purple"
+msgstr ""
+
+#: inc/settings/settings-background.php:24
+msgid "Violet"
+msgstr ""
+
+#: inc/settings/settings-background.php:25
+msgid "Light grey"
+msgstr ""
+
+#: inc/settings/settings-background.php:26
+msgid "Grey"
+msgstr ""
+
+#: inc/settings/settings-background.php:27
+msgid "Dark grey"
+msgstr ""
+
+#: inc/settings/settings-background.php:33
+msgid "Graphic Background"
+msgstr ""
+
+#: inc/settings/settings-background.php:40
+msgid "Banner Settings"
+msgstr ""
+
+#: inc/settings/settings-background.php:45
+msgid "Default Media"
+msgstr ""
+
+#: inc/settings/settings-background.php:51
+msgid "Custom Images"
+msgstr ""
+
+#: inc/settings/settings-background.php:57
+msgid "Unsplash library"
+msgstr ""
+
+#: inc/settings/settings-background.php:62
+msgid "Video"
+msgstr ""
+
+#: inc/settings/settings-background.php:67
+msgid "Graphic Pattern"
+msgstr ""
+
+#: inc/settings/settings-background.php:72
+#: inc/settings/settings-background.php:362
+msgid "Solid Color"
+msgstr ""
+
+#: inc/settings/settings-background.php:77
+msgid "Gradient Color"
+msgstr ""
+
+#: inc/settings/settings-background.php:100
+msgid "Every CMP Theme is using unique default background."
+msgstr ""
+
+#: inc/settings/settings-background.php:110
+msgid ""
+"Pro Tip! You can select multiple Media from your library by holding CTRL"
+"+click (Command+click if you use MacOS) while selecting photos."
+msgstr ""
+
+#: inc/settings/settings-background.php:158
+msgid "Delete Images"
+msgstr ""
+
+#: inc/settings/settings-background.php:165
+msgid "Choose Unsplash Feed"
+msgstr ""
+
+#: inc/settings/settings-background.php:168
+msgid "Random Photo"
+msgstr ""
+
+#: inc/settings/settings-background.php:170
+msgid "Specific Photo"
+msgstr ""
+
+#: inc/settings/settings-background.php:172
+msgid "Random from Collection"
+msgstr ""
+
+#: inc/settings/settings-background.php:174
+msgid "Random from User"
+msgstr ""
+
+#: inc/settings/settings-background.php:179
+msgid "Enter Unsplash Photo URL or Unsplash Photo ID"
+msgstr ""
+
+#: inc/settings/settings-background.php:183
+msgid "Display Unsplash Photo"
+msgstr ""
+
+#: inc/settings/settings-background.php:196
+#, php-format
+msgid "Enter <a href=\"%s\">Unsplash Collection</a> URL or Collection ID."
+msgstr ""
+
+#: inc/settings/settings-background.php:202
+msgid "Limit photos to specific keyword (fashion, nature, technology..)"
+msgstr ""
+
+#: inc/settings/settings-background.php:206
+msgid "Limit to Unsplash Featured Photos"
+msgstr ""
+
+#: inc/settings/settings-background.php:210
+msgid "Enter Unsplash User ID"
+msgstr ""
+
+#: inc/settings/settings-background.php:215
+msgid "Unsplash"
+msgstr ""
+
+#: inc/settings/settings-background.php:215
+msgid ""
+"is a world leading source for free to use high quality stock images. All of "
+"the images that are submitted and published on Unsplash fall under under the "
+"<a href=\"https://unsplash.com/license\"> Unsplash license</a>, which means "
+"you can use the image for any personal or commercial use."
+msgstr ""
+
+#: inc/settings/settings-background.php:222
+msgid "Select Video Source"
+msgstr ""
+
+#: inc/settings/settings-background.php:225
+msgid "YouTube"
+msgstr ""
+
+#: inc/settings/settings-background.php:226
+msgid "Custom Video File"
+msgstr ""
+
+#: inc/settings/settings-background.php:227
+msgid "Vimeo (coming soon...)"
+msgstr ""
+
+#: inc/settings/settings-background.php:232
+msgid "Enter Youtube URL"
+msgstr ""
+
+#: inc/settings/settings-background.php:238
+msgid "Enter Vimeo URL"
+msgstr ""
+
+#: inc/settings/settings-background.php:243
+msgid "Select or Upload custom Video file"
+msgstr ""
+
+#: inc/settings/settings-background.php:272
+msgid ""
+"Video backgrounds doesn`t work on mobile devices therefore only thumbnail "
+"video image will be displayed on mobile devices. Upload custom thumbnail "
+"image by pressing button below. "
+msgstr ""
+
+#: inc/settings/settings-background.php:274
+msgid "Media Library"
+msgstr ""
+
+#: inc/settings/settings-background.php:296
+msgid "Select Pattern"
+msgstr ""
+
+#: inc/settings/settings-background.php:303
+msgid "Custom Pattern..."
+msgstr ""
+
+#: inc/settings/settings-background.php:317
+msgid "Select Color"
+msgstr ""
+
+#: inc/settings/settings-background.php:325
+msgid "Select Gradient Background"
+msgstr ""
+
+#: inc/settings/settings-background.php:335
+#: inc/settings/settings-background.php:392
+msgid "Custom Gradient"
+msgstr ""
+
+#: inc/settings/settings-background.php:340
+#: inc/settings/settings-background.php:398
+msgid "Select first gradient color:"
+msgstr ""
+
+#: inc/settings/settings-background.php:343
+#: inc/settings/settings-background.php:401
+msgid "Select second gradient color:"
+msgstr ""
+
+#: inc/settings/settings-background.php:355
+msgid "Background Overlay"
+msgstr ""
+
+#: inc/settings/settings-background.php:358
+msgid "Set Background Overlay"
+msgstr ""
+
+#: inc/settings/settings-background.php:364
+msgid "Gradient"
+msgstr ""
+
+#: inc/settings/settings-background.php:375
+msgid "Background Overlay Color"
+msgstr ""
+
+#: inc/settings/settings-background.php:382
+msgid "Select Gradient Overlay"
+msgstr ""
+
+#: inc/settings/settings-background.php:409
+msgid "Background Overlay Opacity"
+msgstr ""
+
+#: inc/settings/settings-background.php:415
+msgid "Background Blur Amount"
+msgstr ""
+
+#: inc/settings/settings-background.php:427
+msgid "Text Overlay"
+msgstr ""
+
+#: inc/settings/settings-background.php:430
+msgid "Display Text Overlay"
+msgstr ""
+
+#: inc/settings/settings-background.php:433
+msgid "Overlay Heading"
+msgstr ""
+
+#: inc/settings/settings-background.php:436
+msgid "Overlay Text"
+msgstr ""
+
+#: inc/settings/settings-background.php:439
+msgid "Overlay Call To Action Button Text"
+msgstr ""
+
+#: inc/settings/settings-background.php:442
+msgid "Overlay Call To Action Button URL"
+msgstr ""
+
+#: inc/settings/settings-background.php:443
+msgid "Insert Valid URL"
+msgstr ""
+
+#: inc/settings/settings-contact_form-disabled.php:6
+#: inc/settings/settings-contact_form.php:27
+msgid "Contact Form"
+msgstr ""
+
+#: inc/settings/settings-contact_form-disabled.php:13
+#: inc/settings/settings-contact_form.php:35
+msgid "Contact Form Options"
+msgstr ""
+
+#: inc/settings/settings-contact_form-disabled.php:18
+#: inc/settings/settings-contact_form.php:40
+msgid "3rd Party"
+msgstr ""
+
+#: inc/settings/settings-contact_form-disabled.php:32
+msgid "Contact Form is not supported by selected Theme."
+msgstr ""
+
+#: inc/settings/settings-contact_form.php:55
+#: inc/settings/settings-subscribe.php:88
+msgid "Subscribe Form is disabled."
+msgstr ""
+
+#: inc/settings/settings-contact_form.php:61
+msgid "Contact Form Heading"
+msgstr ""
+
+#: inc/settings/settings-contact_form.php:66
+msgid "Select your contact form"
+msgstr ""
+
+#: inc/settings/settings-contact_form.php:81
+msgid "No contact forms detected. Please create a new Contact Form 7."
+msgstr ""
+
+#: inc/settings/settings-contact_form.php:85
+msgid "Please install Contact Form 7 plugin to select contact form."
+msgstr ""
+
+#: inc/settings/settings-contact_form.php:107
+#, php-format
+msgid ""
+"If the list is empty, please make sure you have installed %s plugin and you "
+"have created a Contact Form. If not, you can create new Contact Form in %s > "
+"Contact > New"
+msgstr ""
+
+#: inc/settings/settings-counter-disabled.php:2
+#: inc/settings/settings-counter.php:43
+msgid "Countdown Timer Setup"
+msgstr ""
+
+#: inc/settings/settings-counter-disabled.php:8
+#: inc/settings/settings-counter.php:49 inc/settings/settings-counter.php:86
+msgid "Counter setup"
+msgstr ""
+
+#: inc/settings/settings-counter-disabled.php:27
+msgid "Countdown Timer is not supported by selected Theme."
+msgstr ""
+
+#: inc/settings/settings-counter.php:68
+msgid "Countdown Timer is disabled."
+msgstr ""
+
+#: inc/settings/settings-counter.php:76
+msgid "Counter Heading"
+msgstr ""
+
+#: inc/settings/settings-counter.php:82
+msgid "Click on date input and set a date & time for a Countdown timer."
+msgstr ""
+
+#: inc/settings/settings-counter.php:89
+msgid "Select Date.."
+msgstr ""
+
+#: inc/settings/settings-counter.php:91
+msgid "Countdown action:"
+msgstr ""
+
+#: inc/settings/settings-counter.php:95
+msgid "No action"
+msgstr ""
+
+#: inc/settings/settings-counter.php:96
+msgid "Disable CMP Plugin and Display my WordPress Theme"
+msgstr ""
+
+#: inc/settings/settings-counter.php:97
+msgid "URL redirect"
+msgstr ""
+
+#: inc/settings/settings-counter.php:101
+#, php-format
+msgid ""
+"Notification Email will be sent to Administrator email %s once Counter "
+"expires."
+msgstr ""
+
+#: inc/settings/settings-counter.php:103
+msgid "Enter redirect URL"
+msgstr ""
+
+#: inc/settings/settings-font-selector.php:7
+#: inc/settings/settings-typography.php:7
+msgid "Customize Fonts"
+msgstr ""
+
+#: inc/settings/settings-font-selector.php:11
+#: inc/settings/settings-typography.php:11
+msgid "Headings Font"
+msgstr ""
+
+#: inc/settings/settings-font-selector.php:14
+#: inc/settings/settings-font-selector.php:49
+#: inc/settings/settings-typography.php:14
+#: inc/settings/settings-typography.php:49
+msgid "Select Font Family from "
+msgstr ""
+
+#: inc/settings/settings-font-selector.php:14
+#: inc/settings/settings-typography.php:14
+msgid "Google Fonts"
+msgstr ""
+
+#: inc/settings/settings-font-selector.php:21
+#: inc/settings/settings-font-selector.php:56
+#: inc/settings/settings-typography.php:21
+#: inc/settings/settings-typography.php:56
+msgid "Variant"
+msgstr ""
+
+#: inc/settings/settings-font-selector.php:31
+#: inc/settings/settings-font-selector.php:63
+#: inc/settings/settings-typography.php:31
+#: inc/settings/settings-typography.php:63
+msgid "Font Size"
+msgstr ""
+
+#: inc/settings/settings-font-selector.php:37
+#: inc/settings/settings-font-selector.php:68
+#: inc/settings/settings-typography.php:37
+#: inc/settings/settings-typography.php:68
+msgid "Letter Spacing"
+msgstr ""
+
+#: inc/settings/settings-font-selector.php:45
+#: inc/settings/settings-typography.php:45
+msgid "Content Font"
+msgstr ""
+
+#: inc/settings/settings-font-selector.php:73
+#: inc/settings/settings-typography.php:73
+msgid "Line Height"
+msgstr ""
+
+#: inc/settings/settings-font-selector.php:77
+#: inc/settings/settings-typography.php:77
+msgid "Fonts preview"
+msgstr ""
+
+#: inc/settings/settings-font-selector.php:88
+#: inc/settings/settings-typography.php:88
+msgid "Heading Animation"
+msgstr ""
+
+#: inc/settings/settings-font-selector.php:90
+#: inc/settings/settings-font-selector.php:101
+#: inc/settings/settings-typography.php:90
+#: inc/settings/settings-typography.php:101
+msgid "No animation"
+msgstr ""
+
+#: inc/settings/settings-font-selector.php:91
+#: inc/settings/settings-font-selector.php:102
+#: inc/settings/settings-typography.php:91
+#: inc/settings/settings-typography.php:102
+msgid "Fade In Down"
+msgstr ""
+
+#: inc/settings/settings-font-selector.php:92
+#: inc/settings/settings-font-selector.php:103
+#: inc/settings/settings-typography.php:92
+#: inc/settings/settings-typography.php:103
+msgid "Fade In Up"
+msgstr ""
+
+#: inc/settings/settings-font-selector.php:93
+#: inc/settings/settings-font-selector.php:104
+#: inc/settings/settings-typography.php:93
+#: inc/settings/settings-typography.php:104
+msgid "Fade In Left"
+msgstr ""
+
+#: inc/settings/settings-font-selector.php:94
+#: inc/settings/settings-font-selector.php:105
+#: inc/settings/settings-typography.php:94
+#: inc/settings/settings-typography.php:105
+msgid "Fade In Right"
+msgstr ""
+
+#: inc/settings/settings-font-selector.php:99
+#: inc/settings/settings-typography.php:99
+msgid "Content Animation"
+msgstr ""
+
+#: inc/settings/settings-font-selector.php:115
+#: inc/settings/settings-typography.php:115
+msgid "Upload Custom Font"
+msgstr ""
+
+#: inc/settings/settings-font-selector.php:118
+#: inc/settings/settings-typography.php:118
+msgid ""
+"All font formats are supported - we recommend to upload woff/woff2 for "
+"modern browsers and eot for IE compatibility."
+msgstr ""
+
+#: inc/settings/settings-font-selector.php:119
+#: inc/settings/settings-typography.php:119
+msgid ""
+"Uploaded custom fonts will be available in dropdown lists for Heading and "
+"Content. Font Preview works only with woff/woff2 formats."
+msgstr ""
+
+#: inc/settings/settings-footer-disabled.php:2
+#: inc/settings/settings-footer.php:11
+msgid "Footer Content"
+msgstr ""
+
+#: inc/settings/settings-footer-disabled.php:8
+msgid "Footer is not supported by selected Theme."
+msgstr ""
+
+#: inc/settings/settings-footer.php:15
+msgid "Copyright"
+msgstr ""
+
+#: inc/settings/settings-footer.php:25 inc/settings/settings-footer.php:100
+msgid "Contact Email"
+msgstr ""
+
+#: inc/settings/settings-footer.php:59
+msgid "Extended Footer Content"
+msgstr ""
+
+#: inc/settings/settings-footer.php:72
+msgid "Contacts Title"
+msgstr ""
+
+#: inc/settings/settings-footer.php:90
+msgid "Contact Address"
+msgstr ""
+
+#: inc/settings/settings-footer.php:109
+msgid "Contact Phone"
+msgstr ""
+
+#: inc/settings/settings-logo-disabled.php:5 inc/settings/settings-logo.php:6
+msgid "Logo Setup"
+msgstr ""
+
+#: inc/settings/settings-logo-disabled.php:12 inc/settings/settings-logo.php:13
+msgid "Logo setup"
+msgstr ""
+
+#: inc/settings/settings-logo-disabled.php:16
+#: inc/settings/settings-logo-disabled.php:17 inc/settings/settings-logo.php:17
+#: inc/settings/settings-logo.php:18
+msgid "Text Logo"
+msgstr ""
+
+#: inc/settings/settings-logo-disabled.php:22
+#: inc/settings/settings-logo-disabled.php:23 inc/settings/settings-logo.php:23
+#: inc/settings/settings-logo.php:24
+msgid "Graphic Logo"
+msgstr ""
+
+#: inc/settings/settings-logo-disabled.php:36
+msgid "Logo settings is not supported by selected Theme."
+msgstr ""
+
+#: inc/settings/settings-logo.php:40
+msgid "Click to set.."
+msgstr ""
+
+#: inc/settings/settings-logo.php:57
+msgid "Set custom logo height"
+msgstr ""
+
+#: inc/settings/settings-logo.php:71
+msgid "Logo is disabled"
+msgstr ""
+
+#: inc/settings/settings-slider-disabled.php:5
+#: inc/settings/settings-slider.php:34
+msgid "Image Slider Setup"
+msgstr ""
+
+#: inc/settings/settings-slider-disabled.php:11
+#: inc/settings/settings-slider.php:40 inc/settings/settings-slider.php:66
+msgid "Slider setup"
+msgstr ""
+
+#: inc/settings/settings-slider-disabled.php:30
+msgid "Slider settings is not supported by selected Theme."
+msgstr ""
+
+#: inc/settings/settings-slider.php:59
+msgid "Slider is disabled."
+msgstr ""
+
+#: inc/settings/settings-slider.php:63
+msgid ""
+"To display Slider on CMP Landing page make sure you inserted two or more "
+"Custom Photos from Media Library. Slider is also disabled when Specific "
+"Unsplash photo or Default Media is selected."
+msgstr ""
+
+#: inc/settings/settings-slider.php:69
+msgid "Slider Effect"
+msgstr ""
+
+#: inc/settings/settings-slider.php:73
+msgid "Slide"
+msgstr ""
+
+#: inc/settings/settings-slider.php:79
+msgid "Fade"
+msgstr ""
+
+#: inc/settings/settings-slider.php:86
+msgid "Slice"
+msgstr ""
+
+#: inc/settings/settings-slider.php:94
+msgid "Mask Transition Effect"
+msgstr ""
+
+#: inc/settings/settings-slider.php:102
+msgid "Slider Autostart"
+msgstr ""
+
+#: inc/settings/settings-slider.php:105
+msgid "Number of Unplash media Slides (applies only for Unsplash photos)"
+msgstr ""
+
+#: inc/settings/settings-social-media.php:7
+msgid "Social Media"
+msgstr ""
+
+#: inc/settings/settings-social-media.php:11
+msgid "Social Section Title"
+msgstr ""
+
+#: inc/settings/settings-social-media.php:20
+msgid "Social Media Icons"
+msgstr ""
+
+#: inc/settings/settings-social-media.php:22
+msgid "Click on Social Icons below to enable Social Media settings."
+msgstr ""
+
+#: inc/settings/settings-social-media.php:40
+#: inc/settings/settings-social-media.php:73
+msgid "Email Address"
+msgstr ""
+
+#: inc/settings/settings-social-media.php:43
+#: inc/settings/settings-social-media.php:46
+#: inc/settings/settings-social-media.php:85
+msgid "Phone Number"
+msgstr ""
+
+#: inc/settings/settings-social-media.php:61
+msgid "Position"
+msgstr ""
+
+#: inc/settings/settings-social-media.php:61
+#: inc/settings/settings-theme-selector.php:55
+#: inc/settings/settings-theme-selector.php:67
+msgid "Active"
+msgstr ""
+
+#: inc/settings/settings-social-media.php:61
+msgid "Website URL"
+msgstr ""
+
+#: inc/settings/settings-social-media.php:89
+msgid "Whatsapp Phone Number"
+msgstr ""
+
+#: inc/settings/settings-special_effects-disabled.php:6
+#: inc/settings/settings-special_effects-disabled.php:13
+#: inc/settings/settings-special_effects.php:18
+#: inc/settings/settings-special_effects.php:25
+msgid "Special Effects"
+msgstr ""
+
+#: inc/settings/settings-special_effects-disabled.php:18
+#: inc/settings/settings-special_effects.php:30
+msgid "Constellation"
+msgstr ""
+
+#: inc/settings/settings-special_effects-disabled.php:24
+#: inc/settings/settings-special_effects.php:36
+msgid "Floating Bubbles"
+msgstr ""
+
+#: inc/settings/settings-special_effects-disabled.php:39
+msgid ""
+"Special Effects are not supported by selected Theme. Please activate another "
+"Theme with Special Effects Support."
+msgstr ""
+
+#: inc/settings/settings-special_effects.php:51
+msgid "Background effects are disabled"
+msgstr ""
+
+#: inc/settings/settings-special_effects.php:56
+msgid "Effect Color"
+msgstr ""
+
+#: inc/settings/settings-subscribe-disabled.php:6
+#: inc/settings/settings-subscribe.php:56
+msgid "Subscribe Form"
+msgstr ""
+
+#: inc/settings/settings-subscribe-disabled.php:13
+#: inc/settings/settings-subscribe.php:63
+msgid "Subscribe Form Options"
+msgstr ""
+
+#: inc/settings/settings-subscribe-disabled.php:18
+#: inc/settings/settings-subscribe.php:68
+msgid "CMP Subscribe Form"
+msgstr ""
+
+#: inc/settings/settings-subscribe-disabled.php:24
+#: inc/settings/settings-subscribe.php:74
+msgid "3rd Party Plugin"
+msgstr ""
+
+#: inc/settings/settings-subscribe-disabled.php:38
+msgid "Subscribe Form is not supported by selected Theme."
+msgstr ""
+
+#: inc/settings/settings-subscribe.php:101
+msgid "Subcribe Form Title"
+msgstr ""
+
+#: inc/settings/settings-subscribe.php:109
+msgid "3rd Party Plugin Shortcode"
+msgstr ""
+
+#: inc/settings/settings-subscribe.php:113
+msgid ""
+"You can find Shortode in your Contact Form Plugin settings. Should be "
+"something similar to code below: "
+msgstr ""
+
+#: inc/settings/settings-subscribe.php:115
+msgid ""
+"If you use 3rd party shortcode for subscribe or contact form, you might need "
+"to apply custom CSS to style the form correctly."
+msgstr ""
+
+#: inc/settings/settings-subscribe.php:121
+msgid ""
+"CMP custom subscribe form will be used. It is guaranteed to always match "
+"selected Theme's style."
+msgstr ""
+
+#: inc/settings/settings-subscribe.php:123
+msgid ""
+"Subscribe Form message (can be GDPR or any custom message). Supports anchor "
+"HTML tags."
+msgstr ""
+
+#: inc/settings/settings-subscribe.php:127
+msgid "Select how to store your Subscribers"
+msgstr ""
+
+#: inc/settings/settings-subscribe.php:129
+msgid "CMP Custom Subscribe List"
+msgstr ""
+
+#: inc/settings/settings-subscribe.php:130
+msgid "MailChimp Integration"
+msgstr ""
+
+#: inc/settings/settings-subscribe.php:135
+msgid ""
+"Emails will be stored in custom CMP list with CSV export support. If you "
+"ever delete CMP plugin then subscriber list will be purged as well."
+msgstr ""
+
+#: inc/settings/settings-subscribe.php:136
+msgid "Total Subscribers: "
+msgstr ""
+
+#: inc/settings/settings-subscribe.php:141
+msgid "MailChimp API key"
+msgstr ""
+
+#: inc/settings/settings-subscribe.php:142
+msgid "MailChimp API Key"
+msgstr ""
+
+#: inc/settings/settings-subscribe.php:145
+msgid "Retrieve Lists"
+msgstr ""
+
+#: inc/settings/settings-subscribe.php:147
+#, php-format
+msgid "You can find or create new API key in your %s."
+msgstr ""
+
+#: inc/settings/settings-subscribe.php:149
+msgid "Select MailChimp List to store emails."
+msgstr ""
+
+#: inc/settings/settings-subscribe.php:166
+msgid "Please insert MailChimp API key to retrieve Lists."
+msgstr ""
+
+#: inc/settings/settings-subscribe.php:175
+msgid "Enable MailChimp Double Opt In"
+msgstr ""
+
+#: inc/settings/settings-subscribe.php:179
+#, php-format
+msgid ""
+"* Did you know you can translate Subscribe Labels/Placeholders to your "
+"language in %s Settings?"
+msgstr ""
+
+#: inc/settings/settings-theme-selector.php:7
+msgid "Available Themes"
+msgstr ""
+
+#: inc/settings/settings-theme-selector.php:13
+msgid "Free Themes"
+msgstr ""
+
+#: inc/settings/settings-theme-selector.php:55
+msgid "Select"
+msgstr ""
+
+#: inc/settings/settings-theme-selector.php:58
+#: inc/settings/settings-theme-selector.php:125
+msgid "PREVIEW"
+msgstr ""
+
+#: inc/settings/settings-theme-selector.php:60
+#: inc/settings/settings-theme-selector.php:127
+msgid "DETAILS"
+msgstr ""
+
+#: inc/settings/settings-theme-selector.php:91
+msgid "Download more CMP Themes"
+msgstr ""
+
+#: inc/settings/settings-theme-selector.php:98
+msgid "Premium Themes"
+msgstr ""
+
+#: inc/settings/settings-theme-selector.php:123
+#, php-format
+msgid "Get %s"
+msgstr ""
+
+#: inc/settings/settings-theme-selector.php:133
+msgid "freebie"
+msgstr ""
+
+#: niteo-cmp.php:387 niteo-cmp.php:834
+msgid "CMP Settings"
+msgstr ""
+
+#: niteo-cmp.php:389
+msgid "CMP Basic Setup"
+msgstr ""
+
+#: niteo-cmp.php:393
+msgid "CMP Subscribers"
+msgstr ""
+
+#: niteo-cmp.php:397
+msgid "Upload CMP Theme"
+msgstr ""
+
+#: niteo-cmp.php:399
+msgid "CMP Help"
+msgstr ""
+
+#: niteo-cmp.php:623
+msgid ""
+"Counter expired but it is set to make no action - you should login to your "
+"Wordpress Admin and adjust the expired timer or disable Coming Soon / "
+"Maintenance Mode."
+msgstr ""
+
+#: niteo-cmp.php:627
+msgid "Counter expired and Coming soon / Maintanance mode was disabled."
+msgstr ""
+
+#: niteo-cmp.php:631
+msgid ""
+"Counter expired and your Website is redirected to external URL per settings."
+msgstr ""
+
+#: niteo-cmp.php:803
+msgid "Maintenance Mode:"
+msgstr ""
+
+#: niteo-cmp.php:807
+msgid "Coming Soon Mode:"
+msgstr ""
+
+#: niteo-cmp.php:811
+msgid "Redirect Mode:"
+msgstr ""
+
+#: niteo-cmp.php:842
+msgid "CMP Preview"
+msgstr ""
+
+#: niteo-cmp.php:975
+#, php-format
+msgid "There is a <b>recommended</b> update of <b>CMP Theme: %s</b> available:"
+msgstr ""
+
+#: niteo-cmp.php:975
+#, php-format
+msgid " click to update to %s version from NiteoThemes server now"
+msgstr ""
+
+#: niteo-cmp.php:1053
+msgid " theme was successfully installed!"
+msgstr ""
+
+#: niteo-cmp.php:1057
+msgid "There was an error unzipping the file!"
+msgstr ""
+
+#: niteo-cmp.php:1062 niteo-cmp.php:1145
+msgid "Error creating Theme subdirectory!"
+msgstr ""
+
+#: niteo-cmp.php:1075
+msgid "Unable to upload new Theme file ."
+msgstr ""
+
+#: niteo-cmp.php:1075
+msgid ""
+" file extension is not supported. Please upload ZIP file containing CMP "
+"Theme."
+msgstr ""
+
+#: niteo-cmp.php:1131
+msgid "Theme has been updated to latest version!"
+msgstr ""
+
+#: niteo-cmp.php:1136
+msgid "There was an error unzipping the file due to error: "
+msgstr ""
+
+#: niteo-cmp.php:1153
+msgid "Error during updating Theme files:"
+msgstr ""
+
+#: niteo-cmp.php:1161
+msgid "General Error during updating Theme files."
+msgstr ""
+
+#: niteo-cmp.php:1463
+msgid "Date"
+msgstr ""
+
+#: niteo-cmp.php:1520
+msgid "CMP Settings Saved"
+msgstr ""
+
+#: themes/construct/construct-settings.php:6
+#: themes/countdown/countdown-settings.php:13
+#: themes/hardwork/hardwork-settings.php:11
+msgid "Customize Colors"
+msgstr ""
+
+#: themes/construct/construct-settings.php:9
+#: themes/countdown/countdown-settings.php:16
+msgid "Active Color"
+msgstr ""
+
+#: themes/construct/construct-settings.php:13
+msgid "Headings and active elements color (buttons, hover links, etc)."
+msgstr ""
+
+#: themes/construct/construct-settings.php:19
+#: themes/countdown/countdown-settings.php:26
+#: themes/hardwork/hardwork-settings.php:15
+msgid "Font Color"
+msgstr ""
+
+#: themes/construct/construct-settings.php:28
+msgid "Background Color"
+msgstr ""
+
+#: themes/construct/construct-settings.php:37
+msgid "Social Background Color"
+msgstr ""
+
+#: themes/countdown/countdown-social_settings.php:6
+msgid "Social Icons Location"
+msgstr ""
+
+#: themes/countdown/countdown-social_settings.php:10
+msgid "Below Content (big icons)"
+msgstr ""
+
+#: themes/countdown/countdown-social_settings.php:11
+msgid "Footer (small icons)"
+msgstr ""
+
+#: themes/hardwork/hardwork-settings.php:24
+msgid "Footer Background Color"
+msgstr ""
+
+#: themes/hardwork/hardwork-settings.php:31
+msgid "Footer Background Opacity"
+msgstr ""

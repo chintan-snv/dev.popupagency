@@ -1,0 +1,370 @@
+/*
+Theme Name: Popup Agency
+Theme URI: https://popupagency.se/
+Author: Ahmad Alkhlif
+Author URI: https://digitalkonsulterna.se/
+Description: En lisiting tema för Popup Agency, så att det blir enkelt att lägga in lokaler och modifierar dem.
+Version: 1.0
+Text Domain: my-listing
+
+Use it to make something cool.
+*/
+
+/* =WordPress Core
+-------------------------------------------------------------- */
+.alignnone {
+    margin: 5px 20px 20px 0;
+}
+
+.aligncenter,
+div.aligncenter {
+    display: block;
+    margin: 5px auto 5px auto;
+}
+
+.alignright {
+    float:right;
+    margin: 5px 0 20px 20px;
+}
+
+.alignleft {
+    float: left;
+    margin: 5px 20px 20px 0;
+}
+
+a img.alignright {
+    float: right;
+    margin: 5px 0 20px 20px;
+}
+
+a img.alignnone {
+    margin: 5px 20px 20px 0;
+}
+
+a img.alignleft {
+    float: left;
+    margin: 5px 20px 20px 0;
+}
+
+a img.aligncenter {
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+
+.wp-caption {
+    background: #fff;
+    border: 1px solid #f0f0f0;
+    max-width: 96%; /* Image does not overflow the content area */
+    padding: 5px 3px 10px;
+    text-align: center;
+}
+
+.wp-caption.alignnone {
+    margin: 5px 20px 20px 0;
+}
+
+.wp-caption.alignleft {
+    margin: 5px 20px 20px 0;
+}
+
+.wp-caption.alignright {
+    margin: 5px 0 20px 20px;
+}
+
+.wp-caption img {
+    border: 0 none;
+    height: auto;
+    margin: 0;
+    max-width: 98.5%;
+    padding: 0;
+    width: auto;
+}
+
+.wp-caption p.wp-caption-text {
+    font-size: 11px;
+    line-height: 17px;
+    margin: 0;
+    padding: 0 4px 5px;
+}
+
+/* Text meant only for screen readers. */
+.screen-reader-text {
+    clip: rect(1px, 1px, 1px, 1px);
+    position: absolute !important;
+    height: 1px;
+    width: 1px;
+    overflow: hidden;
+}
+
+.screen-reader-text:focus {
+    background-color: #f1f1f1;
+    border-radius: 3px;
+    box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.6);
+    clip: auto !important;
+    color: #21759b;
+    display: block;
+    font-size: 14px;
+    font-size: 0.875rem;
+    font-weight: bold;
+    height: auto;
+    left: 5px;
+    line-height: normal;
+    padding: 15px 23px 14px;
+    text-decoration: none;
+    top: 5px;
+    width: auto;
+    z-index: 100000; /* Above WP toolbar. */
+}
+
+.sticky, .bypostauthor, .gallery-caption { font-size: 14px; }
+
+
+
+.mwb_my_listings_wrapper {
+    display: block!important;
+    /*position: relative !important;*/
+}
+/*.search-filters .form-group.explore-filter.checkboxes-filter {
+    width: 25% !important;
+    float: left;
+    position: inherit;
+}
+
+.search-filters .form-group.explore-filter.range-slider {
+    width: 25% !important;
+}
+
+.search-filters .form-group.explore-filter.checkboxes-filter ul.tags-nav {
+    position: absolute;
+    top: 140px;
+    left: 0px;
+    width: 100% !important;
+    z-index: 99999;
+}*/
+#search-form .form-group.fc-search .buttons.button-2.full-width.c27-explore-search-button
+{
+    display: none;
+}
+.job-manager-pagination{
+ display: none;   
+}
+.featured-search .form-group label, .finder-search .form-group label, .md-group input:focus ~ label
+{
+    font-size: 16px;
+}
+body.single-job_listing
+{
+    overflow-x: hidden;
+}
+.single-job_listing .owl-carousel.owl-drag .owl-item
+{
+    margin-right: 0px !important;
+}
+
+/*------------ 31-Dec-2019 -----------*/
+
+.finder-search {
+	padding: 0px !important;
+}
+
+#container-search {
+	overflow-x: hidden;
+}
+
+.finder-search .search-filters .resu-Lokaltyp .tags-nav .check-box-column li .mwb-custom-checkbox label i {
+	margin-right: 3px;
+}
+
+.finder-search .search-filters .light-forms .mylisting-range-slider .amount {
+	padding-left: 0px !important;
+}
+
+.quick-listing-actions ul li span .boxen-1 p {
+    font-size: 14px;
+}
+
+.tab-template-two-columns .block-field-job_description .pf-body p {
+    font-size: 14px;
+}
+
+#pua .elementor-button .elementor-align-icon-right .elementor-icon.fa.fa-angle-double-right {
+    font-size: 14px;
+}
+
+.elementor-element.elementor-element-2055272 .elementor-button .elementor-align-icon-right .elementor-icon.fa.fa-angle-double-right {
+    font-size: 14px;
+}
+
+.elementor-element.elementor-element-e98a599 .elementor-button .elementor-align-icon-right .elementor-icon.fa.fa-angle-double-right { 
+	font-size: 20px;
+}
+
+.elementor-element.elementor-element-b9c6bd0 .elementor-button-icon.elementor-align-icon-right .fa-angle-double-right {
+    font-size: 29px;
+}
+
+.elementor-element.elementor-element-2e4dffd .elementor-button-icon.elementor-align-icon-right i {
+    font-size: 20px;
+}
+
+.elementor-element.elementor-element-e837016 .elementor-button-icon.elementor-align-icon-right i {
+    font-size: 18px;
+}
+
+.elementor-element.elementor-element-f5d57cd .elementor-button-icon.elementor-align-icon-right i {
+    font-size: 14px;
+}
+
+.elementor-element.elementor-element-7852c8c .elementor-button-icon.elementor-align-icon-right i {
+    font-size: 28px;
+}
+
+.elementor-element.elementor-element-4c11ef3 .elementor-button-icon.elementor-align-icon-right i {
+    font-size: 30px;
+}
+
+body p, p, .section-title p, .featured-section p, .testimonial-content p, .showing-filter a:hover p {
+    font-size: 16px;
+}
+
+.extra-details .item-attr {
+    font-size: 16px;
+}
+
+.finder-listings .results-view.grid .listing-preview .event-host.c27-footer-section {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 999;
+    background-color:  transparent;
+    border: none;
+}
+
+.finder-listings .results-view.grid .listing-preview .event-host.c27-footer-section .ld-info ul li.item-preview {
+    display: none;
+}
+
+.finder-listings .results-view.grid .listing-preview .event-host.c27-footer-section .ld-info ul li .c27-bookmark-button {
+    background-color: #fff;
+	margin-right: 5px;
+	margin-top: -2px;
+}
+
+.bdt-trailer-box .bdt-trailer-box-desc-inner .bdt-trailer-box-pre-title {
+    line-height: 1.25 !important;
+}
+
+.listing-preview .event-host.c27-footer-section .ld-info ul .item-preview .c27-toggle-quick-view-modal {
+    display: none;
+}
+
+.pswp__ui.pswp__ui--fit .pswp__button, .pswp__button--arrow--left::before, .pswp__button--arrow--right::before {
+    background: url(assets/images/photoswipe-skin.png) 0 0 no-repeat;
+}
+
+.pswp--svg .pswp__button, .pswp--svg .pswp__button--arrow--left:before, .pswp--svg .pswp__button--arrow--right:before {
+    background-image: url(assets/images/photoswipe-skin.svg);
+}
+
+.pswp__button--arrow--left, .pswp__button--arrow--right {
+    background: none !important;
+}
+
+.pswp--zoomed-in .pswp__button--zoom {
+    background-position: -132px 0 !important;
+}
+
+.pswp__button--close {
+    background-position: 0 -44px !important;
+}
+
+.pswp__button--zoom {
+    background-position: -88px 0 !important;
+}
+
+.pswp__button--arrow--right::before {
+    right: 6px;
+    background-position: -94px -44px !important;
+}
+
+.pswp__button--arrow--left::before {
+    left: 6px;
+    background-position: -138px -44px !important;
+}
+
+.pswp__button--arrow--left::before, .pswp__button--arrow--right::before {
+    background-color: rgba(0,0,0,.3) !important;
+}
+
+#c27-header-search-form .header-search input {
+    font-size: 16px;
+}
+
+
+.single-job_listing .owl-item
+{
+    width: 390px !important;
+}
+
+
+@media only screen and (max-width: 767px) {
+.finder-map {
+    display: none;
+}
+
+.finder-map.map-mobile-visible {
+    display: block;
+}
+
+.quick-listing-actions ul li span .boxen-1 p {
+    font-size: 16px;
+}
+
+.elementor-element.elementor-element-3f1c7a2e .elementor-row .elementor-widget-wrap .elementor-element.elementor-element-12fcf5e {
+    width: auto;
+}
+
+.elementor-element.elementor-element-6181e0f .elementor-button-icon.elementor-align-icon-right i {
+    font-size: 14px;
+}
+
+.elementor-element.elementor-element-b9c6bd0 .elementor-button-icon.elementor-align-icon-right i {
+    font-size: 15px !important;
+}
+
+.quick-listing-actions ul li span .boxen-1 p {
+    font-size: 14px;
+}
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+.finder-map {
+    display: none;
+}
+
+.finder-map.map-mobile-visible {
+    display: block;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

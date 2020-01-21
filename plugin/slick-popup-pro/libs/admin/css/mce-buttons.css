@@ -1,0 +1,20 @@
+i.mce-i-sppro {
+	background-color: #1EBCE3;
+}
+i.mce-i-sppro::before {
+	font-family: "dashicons";
+	content: "\f233";
+	font-size: 1.5em;
+	position: relative;
+	left: -2px;
+}
+i.mce-i-sppro::before {
+	font-family: "inherit";
+	content: url('../img/menu_icon.png');
+	font-size: 1.5em;
+	position: relative;
+	left: 0px;
+	max-height: 100%;
+	max-width: 100%;
+	bottom: -2px;
+}
