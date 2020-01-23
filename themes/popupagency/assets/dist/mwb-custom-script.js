@@ -1,4 +1,31 @@
+function repeat(){
 
+	 var parameterName1 = 'region[]';
+
+                                tmp = [];
+                                var urlparam = window.location.search.substring(1).split("&");
+                                var region_count = 0;
+
+                                for( var i=0; i< urlparam.length; i++ ){
+                                    tmp = urlparam[i].split("=");
+                                    if (decodeURIComponent(tmp[0]) === parameterName1){
+                                        region_count++;
+                                    }
+                                }
+                                var shtml = '<i class="fa fa-plus plus-sign"></i><i class="fa fa-minus minus-sign"></i>';
+                                 console.log("##########", region_count);
+                                if(region_count == 1){
+                                    var newhtml = region_count+' '+frontend_popup_param.valda_plat+shtml;
+                                    jQuery(document).find('.namn-Plats').html(newhtml);
+                                }else if(region_count > 1){
+                                    var newhtml = region_count+' '+frontend_popup_param.valda_plats+shtml;
+                                    jQuery(document).find('.namn-Plats').html(newhtml);
+                                }
+                                if(region_count == 0){
+                                    var newhtml = frontend_popup_param.plats+shtml;
+                                    jQuery(document).find('.namn-Plats').html(newhtml);
+                                }
+}    
 jQuery(document).ready(function() {
 	
 	var parameterName1 = 'region[]';
@@ -113,7 +140,7 @@ jQuery(document).ready(function() {
 		}
 	});
 
-	jQuery('body').click(function(e){
+	jQuery('body').on("click",function(e){
 		
 		if(e.target.id == 'finderListings'){
 			e.stopPropagation();
@@ -139,7 +166,7 @@ jQuery(document).ready(function() {
 		jQuery(document).find('.hideplus').removeClass('hideplus');		
 	});
 
-	jQuery('div.form-group label').click(function(e) {
+	jQuery('div.form-group label').on("click",function(e) {
 		var div_container = e.target;
 		div_container = jQuery(div_container).parent().parent();
 		
@@ -158,7 +185,7 @@ jQuery(document).ready(function() {
 
 	});
 
-	jQuery('div.form-group label').click(function() {
+	jQuery('div.form-group label').on("click",function() {
 
 		if(!jQuery(document).find('#finderListings').hasClass('mwb-custom-overlay')){
 			if(jQuery(this).parent().hasClass('checkboxes-filter')){
@@ -201,7 +228,7 @@ jQuery(document).ready(function() {
 		}
 	});
 
-	jQuery('.header-bottom-wrapper .header-search .mi').click(function() {
+	jQuery('.header-bottom-wrapper .header-search .mi').on("click",function() {
 		jQuery(this).parent('.header-search').toggleClass('active');
 		if (jQuery(this).hasClass('search')) {
 			jQuery(this).removeClass('search');

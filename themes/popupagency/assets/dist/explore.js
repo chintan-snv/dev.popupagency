@@ -38,7 +38,7 @@
                     this.types[e] && (this.activeType = this.types[e])
                 },
                 getListings: MyListing.Helpers.debounce(function(e) {
-                    window.getListings = true;
+                    window.getListings = true; 
                     this.mobile.matches || this._getListings(e)
                 }, 500),
                 getListingsShort: MyListing.Helpers.debounce(function(e) {
@@ -155,7 +155,7 @@
                      if(window.getListings)
                      {
                         window.getListings = false;
-                        alert("");
+                        // alert("");
                         this.backup = "";
                      }
                       if(!jQuery('.job-manager-pagination').find('.current').parent("li").next("li").length)
@@ -186,6 +186,7 @@
                     }), "pagination" == t && !CASE27_Explore_Settings.ScrollToResults && jQuery(".finder-container .fc-one-column").length && jQuery(".finder-container .fc-one-column").animate({
                         scrollTop: jQuery(".finder-search").outerHeight()
                     })) : "results" === this.state.mobileTab && this._resultsScrollTop(), this.updateMap()
+                     repeat();
                 },
                 _resultsScrollTop: function() {
                     jQuery("html, body").animate({
@@ -299,6 +300,7 @@
                     }.bind(this)), !!e.length
                 },
                 resetFilters: function(e) {
+                    var that = this;
                     if (e && e.target) {
                         var t = jQuery(e.target).find("i");
                         t.removeClass("fa-spin"), setTimeout(function() {
@@ -310,6 +312,11 @@
                     jQuery(".search-filters.type-id-" + this.activeType.id + " .filter-wrapper > .form-group").each(function() {
                         var e = jQuery(this),
                             t = jQuery(this).data("key");
+                            jQuery('input[type="checkbox"]:checked').each(function () {
+                               jQuery(this).trigger("click"); 
+                               that.updateUrl();
+                               repeat();    
+                           });  
                         if (e.hasClass("wp-search-filter") && e.find('input[name="search_keywords"]').val("").trigger("input").get(0).dispatchEvent(new Event("input")), e.hasClass("location-filter") && e.find('input[name="search_location"]').val("").trigger("input").get(0).dispatchEvent(new Event("input")), e.hasClass("text-filter") && e.find('input[type="text"]').val("").trigger("input").get(0).dispatchEvent(new Event("input")), e.hasClass("checkboxes-filter") && (s[t] = Array.isArray(s[t]) ? [] : ""), e.hasClass("date-filter") && e.find(".datepicker-wrapper .reset-value").click(), e.hasClass("dateyear-filter") && e.find(".custom-select").val([]).trigger("change").trigger("select2:close"), e.hasClass("dropdown-filter") && e.find(".custom-select").val([]).trigger("change").trigger("select2:close"), e.hasClass("cts-term-hierarchy") && e.find(".term-select-0 select").val([]).trigger("change").trigger("select2:close"), e.hasClass("range-filter")) {
                             var i = e.find(".slider-range"),
                                 a = i.slider("option");
